@@ -1,0 +1,82 @@
+[
+    {
+        "id": "1c0707a1-242d-451d-b911-da984aed985e",
+        "name": "Angers"
+    },
+    {
+        "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+        "name": "Bordeaux"
+    },
+    {
+        "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+        "name": "Dijon"
+    },
+    {
+        "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+        "name": "Gap"
+    },
+    {
+        "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+        "name": "Grenoble"
+    },
+    {
+        "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+        "name": "Le Havre"
+    },
+    {
+        "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+        "name": "Lille"
+    },
+    {
+        "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+        "name": "Lyon"
+    },
+    {
+        "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+        "name": "Marseille"
+    },
+    {
+        "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+        "name": "Montpellier"
+    },
+    {
+        "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+        "name": "Nantes"
+    },
+    {
+        "id": "337ace68-a434-4a05-acaf-a8819475da64",
+        "name": "Nice"
+    },
+    {
+        "id": "014bde7e-11b0-4236-a003-4e981b502866",
+        "name": "N\u00eemes"
+    },
+    {
+        "id": "cb549772-d753-453c-baac-f27f2c870646",
+        "name": "Paris"
+    },
+    {
+        "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+        "name": "Reims"
+    },
+    {
+        "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+        "name": "Rennes"
+    },
+    {
+        "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+        "name": "Strasbourg"
+    },
+    {
+        "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+        "name": "Toulon"
+    },
+    {
+        "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+        "name": "Toulouse"
+    },
+    {
+        "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+        "name": "Villeurbanne"
+    }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "rank": 1,
+    "matchPlayedCount": 38,
+    "matchWonCount": 22,
+    "matchLostCount": 10,
+    "drawCount": 6,
+    "goalForCount": 111,
+    "goalAgainstCount": 92,
+    "goalDifference": 19,
+    "points": 72,
+    "team": {
+      "id": "cb549772-d753-453c-baac-f27f2c870646",
+      "name": "Paris"
+    }
+  },
+  {
+    "rank": 2,
+    "matchPlayedCount": 38,
+    "matchWonCount": 19,
+    "matchLostCount": 13,
+    "drawCount": 6,
+    "goalForCount": 111,
+    "goalAgainstCount": 97,
+    "goalDifference": 14,
+    "points": 63,
+    "team": {
+      "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+      "name": "Lyon"
+    }
+  },
+  {
+    "rank": 3,
+    "matchPlayedCount": 38,
+    "matchWonCount": 19,
+    "matchLostCount": 15,
+    "drawCount": 4,
+    "goalForCount": 91,
+    "goalAgainstCount": 68,
+    "goalDifference": 23,
+    "points": 61,
+    "team": {
+      "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+      "name": "Marseille"
+    }
+  },
+  {
+    "rank": 4,
+    "matchPlayedCount": 38,
+    "matchWonCount": 19,
+    "matchLostCount": 15,
+    "drawCount": 4,
+    "goalForCount": 94,
+    "goalAgainstCount": 88,
+    "goalDifference": 6,
+    "points": 61,
+    "team": {
+      "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+      "name": "Montpellier"
+    }
+  },
+  {
+    "rank": 5,
+    "matchPlayedCount": 38,
+    "matchWonCount": 19,
+    "matchLostCount": 15,
+    "drawCount": 4,
+    "goalForCount": 86,
+    "goalAgainstCount": 80,
+    "goalDifference": 6,
+    "points": 61,
+    "team": {
+      "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+      "name": "Bordeaux"
+    }
+  },
+  {
+    "rank": 6,
+    "matchPlayedCount": 38,
+    "matchWonCount": 18,
+    "matchLostCount": 14,
+    "drawCount": 6,
+    "goalForCount": 107,
+    "goalAgainstCount": 90,
+    "goalDifference": 17,
+    "points": 60,
+    "team": {
+      "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+      "name": "Toulouse"
+    }
+  },
+  {
+    "rank": 7,
+    "matchPlayedCount": 38,
+    "matchWonCount": 18,
+    "matchLostCount": 15,
+    "drawCount": 5,
+    "goalForCount": 104,
+    "goalAgainstCount": 94,
+    "goalDifference": 10,
+    "points": 59,
+    "team": {
+      "id": "014bde7e-11b0-4236-a003-4e981b502866",
+      "name": "N\u00eemes"
+    }
+  },
+  {
+    "rank": 8,
+    "matchPlayedCount": 38,
+    "matchWonCount": 17,
+    "matchLostCount": 14,
+    "drawCount": 7,
+    "goalForCount": 112,
+    "goalAgainstCount": 94,
+    "goalDifference": 18,
+    "points": 58,
+    "team": {
+      "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+      "name": "Reims"
+    }
+  },
+  {
+    "rank": 9,
+    "matchPlayedCount": 38,
+    "matchWonCount": 18,
+    "matchLostCount": 16,
+    "drawCount": 4,
+    "goalForCount": 99,
+    "goalAgainstCount": 96,
+    "goalDifference": 3,
+    "points": 58,
+    "team": {
+      "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+      "name": "Dijon"
+    }
+  },
+  {
+    "rank": 10,
+    "matchPlayedCount": 38,
+    "matchWonCount": 16,
+    "matchLostCount": 13,
+    "drawCount": 9,
+    "goalForCount": 94,
+    "goalAgainstCount": 85,
+    "goalDifference": 9,
+    "points": 57,
+    "team": {
+      "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+      "name": "Le Havre"
+    }
+  },
+  {
+    "rank": 11,
+    "matchPlayedCount": 38,
+    "matchWonCount": 16,
+    "matchLostCount": 13,
+    "drawCount": 9,
+    "goalForCount": 100,
+    "goalAgainstCount": 101,
+    "goalDifference": -1,
+    "points": 57,
+    "team": {
+      "id": "1c0707a1-242d-451d-b911-da984aed985e",
+      "name": "Angers"
+    }
+  },
+  {
+    "rank": 12,
+    "matchPlayedCount": 38,
+    "matchWonCount": 17,
+    "matchLostCount": 18,
+    "drawCount": 3,
+    "goalForCount": 85,
+    "goalAgainstCount": 105,
+    "goalDifference": -20,
+    "points": 54,
+    "team": {
+      "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+      "name": "Strasbourg"
+    }
+  },
+  {
+    "rank": 13,
+    "matchPlayedCount": 38,
+    "matchWonCount": 16,
+    "matchLostCount": 17,
+    "drawCount": 5,
+    "goalForCount": 95,
+    "goalAgainstCount": 98,
+    "goalDifference": -3,
+    "points": 53,
+    "team": {
+      "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+      "name": "Nantes"
+    }
+  },
+  {
+    "rank": 14,
+    "matchPlayedCount": 38,
+    "matchWonCount": 15,
+    "matchLostCount": 16,
+    "drawCount": 7,
+    "goalForCount": 86,
+    "goalAgainstCount": 93,
+    "goalDifference": -7,
+    "points": 52,
+    "team": {
+      "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+      "name": "Villeurbanne"
+    }
+  },
+  {
+    "rank": 15,
+    "matchPlayedCount": 38,
+    "matchWonCount": 14,
+    "matchLostCount": 18,
+    "drawCount": 6,
+    "goalForCount": 94,
+    "goalAgainstCount": 92,
+    "goalDifference": 2,
+    "points": 48,
+    "team": {
+      "id": "337ace68-a434-4a05-acaf-a8819475da64",
+      "name": "Nice"
+    }
+  },
+  {
+    "rank": 16,
+    "matchPlayedCount": 38,
+    "matchWonCount": 14,
+    "matchLostCount": 18,
+    "drawCount": 6,
+    "goalForCount": 94,
+    "goalAgainstCount": 103,
+    "goalDifference": -9,
+    "points": 48,
+    "team": {
+      "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+      "name": "Toulon"
+    }
+  },
+  {
+    "rank": 17,
+    "matchPlayedCount": 38,
+    "matchWonCount": 14,
+    "matchLostCount": 21,
+    "drawCount": 3,
+    "goalForCount": 88,
+    "goalAgainstCount": 107,
+    "goalDifference": -19,
+    "points": 45,
+    "team": {
+      "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+      "name": "Gap"
+    }
+  },
+  {
+    "rank": 18,
+    "matchPlayedCount": 38,
+    "matchWonCount": 12,
+    "matchLostCount": 19,
+    "drawCount": 7,
+    "goalForCount": 78,
+    "goalAgainstCount": 97,
+    "goalDifference": -19,
+    "points": 43,
+    "team": {
+      "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+      "name": "Grenoble"
+    }
+  },
+  {
+    "rank": 19,
+    "matchPlayedCount": 38,
+    "matchWonCount": 12,
+    "matchLostCount": 20,
+    "drawCount": 6,
+    "goalForCount": 93,
+    "goalAgainstCount": 107,
+    "goalDifference": -14,
+    "points": 42,
+    "team": {
+      "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+      "name": "Lille"
+    }
+  },
+  {
+    "rank": 20,
+    "matchPlayedCount": 38,
+    "matchWonCount": 9,
+    "matchLostCount": 24,
+    "drawCount": 5,
+    "goalForCount": 89,
+    "goalAgainstCount": 124,
+    "goalDifference": -35,
+    "points": 32,
+    "team": {
+      "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+      "name": "Rennes"
+    }
+  }
+]

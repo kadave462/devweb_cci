@@ -1,0 +1,5702 @@
+[
+    {
+        "id": "ccfedd88-d517-4277-bae0-a2bfd9bb3c46",
+        "homeTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "awayTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 5,
+        "date": "2048-08-03",
+        "time": "21:00"
+    },
+    {
+        "id": "9c9a2b9c-87f2-4651-ad2b-d90791008b7f",
+        "homeTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "awayTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 4,
+        "date": "2048-08-03",
+        "time": "21:00"
+    },
+    {
+        "id": "3074902f-1578-44ec-ad9e-ea4945648cb7",
+        "homeTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "awayTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 2,
+        "date": "2048-08-03",
+        "time": "21:00"
+    },
+    {
+        "id": "ed276fb4-56ca-4d35-adac-3d5efe2532a5",
+        "homeTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "awayTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 0,
+        "date": "2048-08-03",
+        "time": "21:00"
+    },
+    {
+        "id": "8137cbc3-91fe-4b4d-afb7-e675ac9699bc",
+        "homeTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "awayTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 5,
+        "date": "2048-08-03",
+        "time": "21:00"
+    },
+    {
+        "id": "f0d108ff-6196-47a2-9dd6-c2189ead9616",
+        "homeTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "awayTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 0,
+        "date": "2048-08-03",
+        "time": "21:00"
+    },
+    {
+        "id": "5bc12ac5-cbd6-457d-9a9b-5f8590789aed",
+        "homeTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "awayTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 5,
+        "date": "2048-08-03",
+        "time": "21:00"
+    },
+    {
+        "id": "6c940ba4-8701-4b19-8f50-9ab5a0ece627",
+        "homeTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "awayTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 3,
+        "date": "2048-08-03",
+        "time": "21:00"
+    },
+    {
+        "id": "119f88ae-1890-40c4-aa2a-082110275ddf",
+        "homeTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "awayTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 0,
+        "date": "2048-08-03",
+        "time": "21:00"
+    },
+    {
+        "id": "8e369fe8-932f-455a-9735-3b3319e50005",
+        "homeTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "awayTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 1,
+        "date": "2048-08-03",
+        "time": "21:00"
+    },
+    {
+        "id": "3e060fb5-ae38-47df-915e-9994f72c411a",
+        "homeTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "awayTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 3,
+        "date": "2048-08-10",
+        "time": "21:00"
+    },
+    {
+        "id": "db2acd5d-85dd-49c6-abb2-8d32543f5af9",
+        "homeTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "awayTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 1,
+        "date": "2048-08-10",
+        "time": "21:00"
+    },
+    {
+        "id": "741165d2-6912-475a-97e1-55612afd19fc",
+        "homeTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "awayTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 1,
+        "date": "2048-08-10",
+        "time": "21:00"
+    },
+    {
+        "id": "901af108-74f2-439b-a373-9795b194e457",
+        "homeTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "awayTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 1,
+        "date": "2048-08-10",
+        "time": "21:00"
+    },
+    {
+        "id": "29ec8f8b-0354-4701-ba15-22b5d241a852",
+        "homeTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "awayTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 2,
+        "date": "2048-08-10",
+        "time": "21:00"
+    },
+    {
+        "id": "c15c7623-e06b-4da9-9b00-4f025e0540cb",
+        "homeTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "awayTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 3,
+        "date": "2048-08-10",
+        "time": "21:00"
+    },
+    {
+        "id": "492fb3f5-e88f-4a45-a2ed-20ea19b0436a",
+        "homeTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "awayTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 5,
+        "date": "2048-08-10",
+        "time": "21:00"
+    },
+    {
+        "id": "9576110e-5261-4768-83a6-4ecfeb7d5f0d",
+        "homeTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "awayTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 1,
+        "date": "2048-08-10",
+        "time": "21:00"
+    },
+    {
+        "id": "8ce8073a-2c12-4a2f-8dd5-a5c5b2bde448",
+        "homeTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "awayTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 5,
+        "date": "2048-08-10",
+        "time": "21:00"
+    },
+    {
+        "id": "df82895c-5205-429b-aeab-c430b8b4fc45",
+        "homeTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "awayTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 0,
+        "date": "2048-08-10",
+        "time": "21:00"
+    },
+    {
+        "id": "f4c6ddd6-d9e9-42ee-aa0d-c7eb1a7b9992",
+        "homeTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "awayTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 2,
+        "date": "2048-08-17",
+        "time": "21:00"
+    },
+    {
+        "id": "367c678a-552e-4488-9cb8-14e2cb491413",
+        "homeTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "awayTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 5,
+        "date": "2048-08-17",
+        "time": "21:00"
+    },
+    {
+        "id": "f4e55962-ad5b-4d1d-bdd6-b042b779a3c0",
+        "homeTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "awayTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 3,
+        "date": "2048-08-17",
+        "time": "21:00"
+    },
+    {
+        "id": "dd2f0149-9a98-41f6-a870-0e2f290fb987",
+        "homeTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "awayTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 5,
+        "date": "2048-08-17",
+        "time": "21:00"
+    },
+    {
+        "id": "98a41c6b-685b-417b-ab61-34261194a6ea",
+        "homeTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "awayTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 2,
+        "date": "2048-08-17",
+        "time": "21:00"
+    },
+    {
+        "id": "38722295-c48d-429a-9c08-2f18a1da20aa",
+        "homeTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "awayTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 4,
+        "date": "2048-08-17",
+        "time": "21:00"
+    },
+    {
+        "id": "e65989bc-be84-4d1c-a775-5364014a4553",
+        "homeTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "awayTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 4,
+        "date": "2048-08-17",
+        "time": "21:00"
+    },
+    {
+        "id": "9e56ff61-6121-4ec1-82ab-0250235620d5",
+        "homeTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "awayTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 4,
+        "date": "2048-08-17",
+        "time": "21:00"
+    },
+    {
+        "id": "692055e9-27af-4b17-8322-5ba54651a6e6",
+        "homeTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "awayTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 3,
+        "date": "2048-08-17",
+        "time": "21:00"
+    },
+    {
+        "id": "c111eb0e-96ce-4980-8ef8-dd71ad4a0a25",
+        "homeTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "awayTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 5,
+        "date": "2048-08-17",
+        "time": "21:00"
+    },
+    {
+        "id": "ef285cbb-7a36-468d-ad06-854c02718d49",
+        "homeTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "awayTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 3,
+        "date": "2048-08-24",
+        "time": "21:00"
+    },
+    {
+        "id": "af505738-dcc9-41b0-9ab2-5d59cdfeafad",
+        "homeTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "awayTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 1,
+        "date": "2048-08-24",
+        "time": "21:00"
+    },
+    {
+        "id": "e813d7fc-157c-493d-9ad5-fe54adf3b4fd",
+        "homeTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "awayTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 4,
+        "date": "2048-08-24",
+        "time": "21:00"
+    },
+    {
+        "id": "da90d46f-3769-4997-ad22-140481105776",
+        "homeTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "awayTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 5,
+        "date": "2048-08-24",
+        "time": "21:00"
+    },
+    {
+        "id": "e1d41372-22bb-4318-a504-4def2b1ecd8f",
+        "homeTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "awayTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 2,
+        "date": "2048-08-24",
+        "time": "21:00"
+    },
+    {
+        "id": "2a52da3f-1281-4355-8546-aa90b7ca0a1d",
+        "homeTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "awayTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 1,
+        "date": "2048-08-24",
+        "time": "21:00"
+    },
+    {
+        "id": "3e6aca55-31f6-488d-b8f9-f7723bbaf128",
+        "homeTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "awayTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 4,
+        "date": "2048-08-24",
+        "time": "21:00"
+    },
+    {
+        "id": "1c112cb9-ed9a-4303-8491-5eda47b5f355",
+        "homeTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "awayTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 1,
+        "date": "2048-08-24",
+        "time": "21:00"
+    },
+    {
+        "id": "f03c7d1f-08b7-431a-a09a-fcc8cbcac8f9",
+        "homeTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "awayTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 3,
+        "date": "2048-08-24",
+        "time": "21:00"
+    },
+    {
+        "id": "fb2bc306-ce1f-4e47-a573-9c0e3c3eba65",
+        "homeTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "awayTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 3,
+        "date": "2048-08-24",
+        "time": "21:00"
+    },
+    {
+        "id": "d6006f26-ee7c-4d75-8e4f-fb0d51505c7f",
+        "homeTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "awayTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 0,
+        "date": "2048-08-31",
+        "time": "21:00"
+    },
+    {
+        "id": "ba1dd01a-92b3-472d-bbfe-f27cbb10d9cb",
+        "homeTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "awayTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 0,
+        "date": "2048-08-31",
+        "time": "21:00"
+    },
+    {
+        "id": "2b343106-52c8-446e-bedc-97f71279d318",
+        "homeTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "awayTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 5,
+        "date": "2048-08-31",
+        "time": "21:00"
+    },
+    {
+        "id": "b09cd74e-3cb4-476b-b0b2-339dc283163a",
+        "homeTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "awayTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 4,
+        "date": "2048-08-31",
+        "time": "21:00"
+    },
+    {
+        "id": "2e3ca229-fcfd-49b1-b11d-d31a1c6fd49b",
+        "homeTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "awayTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 3,
+        "date": "2048-08-31",
+        "time": "21:00"
+    },
+    {
+        "id": "2974a3a1-0622-467a-a724-8125e902cead",
+        "homeTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "awayTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 1,
+        "date": "2048-08-31",
+        "time": "21:00"
+    },
+    {
+        "id": "66a57b7d-6326-4462-9747-e0e778c81aaa",
+        "homeTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "awayTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 4,
+        "date": "2048-08-31",
+        "time": "21:00"
+    },
+    {
+        "id": "07a55258-14cd-4ccb-8f12-80218b300f91",
+        "homeTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "awayTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 0,
+        "date": "2048-08-31",
+        "time": "21:00"
+    },
+    {
+        "id": "5c58b838-884e-41a5-9bb1-903cbfa2460a",
+        "homeTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "awayTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 4,
+        "date": "2048-08-31",
+        "time": "21:00"
+    },
+    {
+        "id": "4d738283-4f07-4219-b536-9e8a9338a8db",
+        "homeTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "awayTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 1,
+        "date": "2048-08-31",
+        "time": "21:00"
+    },
+    {
+        "id": "491a81c5-c637-4542-a523-03ea5d6a0c6a",
+        "homeTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "awayTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 4,
+        "date": "2048-09-07",
+        "time": "21:00"
+    },
+    {
+        "id": "1b366a24-0668-4aa7-ab41-0e2dfb797dc9",
+        "homeTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "awayTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 4,
+        "date": "2048-09-07",
+        "time": "21:00"
+    },
+    {
+        "id": "302e9f30-7a88-4efd-bd34-f4b050425367",
+        "homeTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "awayTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 3,
+        "date": "2048-09-07",
+        "time": "21:00"
+    },
+    {
+        "id": "b92692c3-1d0e-490f-99ef-dcb6348af698",
+        "homeTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "awayTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 5,
+        "date": "2048-09-07",
+        "time": "21:00"
+    },
+    {
+        "id": "ccc0b9cb-ba3f-49df-b6df-ce41f4b285ff",
+        "homeTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "awayTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 4,
+        "date": "2048-09-07",
+        "time": "21:00"
+    },
+    {
+        "id": "4ca616c0-f831-4631-b720-a1a4ef9c46ad",
+        "homeTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "awayTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 0,
+        "date": "2048-09-07",
+        "time": "21:00"
+    },
+    {
+        "id": "da1fcc52-0ae0-48ff-8da2-e39ee52ed636",
+        "homeTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "awayTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 5,
+        "date": "2048-09-07",
+        "time": "21:00"
+    },
+    {
+        "id": "44529ba1-e82b-48f3-98e7-e524ca63e465",
+        "homeTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "awayTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 1,
+        "date": "2048-09-07",
+        "time": "21:00"
+    },
+    {
+        "id": "4cf6c812-df94-4139-967d-20a2f8f17260",
+        "homeTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "awayTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 4,
+        "date": "2048-09-07",
+        "time": "21:00"
+    },
+    {
+        "id": "fbd85ffe-6e7b-4e05-ab9c-1c6e678961d0",
+        "homeTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "awayTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 3,
+        "date": "2048-09-07",
+        "time": "21:00"
+    },
+    {
+        "id": "0eb9e682-0024-438c-989e-aa71ebabfef6",
+        "homeTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "awayTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 3,
+        "date": "2048-09-14",
+        "time": "21:00"
+    },
+    {
+        "id": "f8b06ac4-5acb-4e54-b9e9-985a01442946",
+        "homeTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "awayTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 4,
+        "date": "2048-09-14",
+        "time": "21:00"
+    },
+    {
+        "id": "79c4fb88-4dc6-4c66-b573-a70a5b89076f",
+        "homeTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "awayTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 1,
+        "date": "2048-09-14",
+        "time": "21:00"
+    },
+    {
+        "id": "cc7e7734-e2ff-4bfc-b1e3-4147343d75e4",
+        "homeTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "awayTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 3,
+        "date": "2048-09-14",
+        "time": "21:00"
+    },
+    {
+        "id": "8764a11f-e29d-4895-a596-0894da200c72",
+        "homeTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "awayTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 2,
+        "date": "2048-09-14",
+        "time": "21:00"
+    },
+    {
+        "id": "14feb964-edab-4b56-b272-f169a5bb5ed9",
+        "homeTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "awayTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 2,
+        "date": "2048-09-14",
+        "time": "21:00"
+    },
+    {
+        "id": "33ec71fc-f92e-4572-b88d-006941f0bb6f",
+        "homeTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "awayTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 4,
+        "date": "2048-09-14",
+        "time": "21:00"
+    },
+    {
+        "id": "f4b3a26b-45ef-410d-a659-5d6e65d84b3b",
+        "homeTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "awayTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 4,
+        "date": "2048-09-14",
+        "time": "21:00"
+    },
+    {
+        "id": "3b176a73-ba8a-47d9-a41d-61034989885d",
+        "homeTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "awayTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 2,
+        "date": "2048-09-14",
+        "time": "21:00"
+    },
+    {
+        "id": "ff9a03f9-90df-4104-9b9b-f5cfb984a6ef",
+        "homeTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "awayTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 4,
+        "date": "2048-09-14",
+        "time": "21:00"
+    },
+    {
+        "id": "4487c1d1-0d8b-43b5-93b4-08ebe592e0ab",
+        "homeTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "awayTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 1,
+        "date": "2048-09-21",
+        "time": "21:00"
+    },
+    {
+        "id": "88270e32-bf6b-45c0-8717-acad7f05caa9",
+        "homeTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "awayTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 1,
+        "date": "2048-09-21",
+        "time": "21:00"
+    },
+    {
+        "id": "ba194c7a-1ea3-421d-a9fb-9fb4a7ac54f2",
+        "homeTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "awayTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 4,
+        "date": "2048-09-21",
+        "time": "21:00"
+    },
+    {
+        "id": "1373a5b4-5af5-4ced-8e31-24dadc6912d7",
+        "homeTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "awayTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 0,
+        "date": "2048-09-21",
+        "time": "21:00"
+    },
+    {
+        "id": "467e2993-4ee3-4c2a-b01b-4272517a637e",
+        "homeTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "awayTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 2,
+        "date": "2048-09-21",
+        "time": "21:00"
+    },
+    {
+        "id": "b133ac98-6b6d-4f3f-b562-b5eb1d0a322b",
+        "homeTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "awayTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 5,
+        "date": "2048-09-21",
+        "time": "21:00"
+    },
+    {
+        "id": "832c9d37-3145-4d6b-8368-01fa82218b35",
+        "homeTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "awayTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 0,
+        "date": "2048-09-21",
+        "time": "21:00"
+    },
+    {
+        "id": "20fa38e1-77d6-4e56-8781-317c458374a6",
+        "homeTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "awayTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 3,
+        "date": "2048-09-21",
+        "time": "21:00"
+    },
+    {
+        "id": "16032399-096c-4192-a4b4-a8d5f4faa126",
+        "homeTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "awayTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 2,
+        "date": "2048-09-21",
+        "time": "21:00"
+    },
+    {
+        "id": "7ae5e5c2-b9eb-4f45-be52-7a080063d174",
+        "homeTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "awayTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 2,
+        "date": "2048-09-21",
+        "time": "21:00"
+    },
+    {
+        "id": "325ba26b-d353-4cac-a613-1fb55c4709a5",
+        "homeTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "awayTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 4,
+        "date": "2048-09-28",
+        "time": "21:00"
+    },
+    {
+        "id": "400721de-079e-4717-870a-4ec7be738c74",
+        "homeTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "awayTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 2,
+        "date": "2048-09-28",
+        "time": "21:00"
+    },
+    {
+        "id": "bee77bc9-bfda-4d35-97c0-3c18f4ed1626",
+        "homeTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "awayTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 0,
+        "date": "2048-09-28",
+        "time": "21:00"
+    },
+    {
+        "id": "3cefb94b-c0df-493f-822d-98e989da517f",
+        "homeTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "awayTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 1,
+        "date": "2048-09-28",
+        "time": "21:00"
+    },
+    {
+        "id": "81cb781f-e3c2-4add-8945-a1624dc10796",
+        "homeTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "awayTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 4,
+        "date": "2048-09-28",
+        "time": "21:00"
+    },
+    {
+        "id": "14d265c7-3222-4e37-b726-f1214af98a00",
+        "homeTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "awayTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 5,
+        "date": "2048-09-28",
+        "time": "21:00"
+    },
+    {
+        "id": "b6dc6de9-28d9-4719-85ba-7f0aacebaa58",
+        "homeTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "awayTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 5,
+        "date": "2048-09-28",
+        "time": "21:00"
+    },
+    {
+        "id": "424a3b5d-7957-4788-be93-5958190c23ba",
+        "homeTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "awayTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 2,
+        "date": "2048-09-28",
+        "time": "21:00"
+    },
+    {
+        "id": "7f9eb804-1649-4495-ab68-54d01acf8a11",
+        "homeTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "awayTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 5,
+        "date": "2048-09-28",
+        "time": "21:00"
+    },
+    {
+        "id": "6b8c9e58-c0c8-4cf4-8666-2a81862b11d5",
+        "homeTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "awayTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 3,
+        "date": "2048-09-28",
+        "time": "21:00"
+    },
+    {
+        "id": "93602fdc-59b6-4f8f-9f4f-26efc48713c2",
+        "homeTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "awayTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 0,
+        "date": "2048-10-05",
+        "time": "21:00"
+    },
+    {
+        "id": "a70276ff-567d-4cda-a3b6-cbe7172e1db0",
+        "homeTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "awayTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 2,
+        "date": "2048-10-05",
+        "time": "21:00"
+    },
+    {
+        "id": "6dcd4e97-1c91-4045-9c8c-9f5a90d9435c",
+        "homeTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "awayTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 2,
+        "date": "2048-10-05",
+        "time": "21:00"
+    },
+    {
+        "id": "cf3715fa-0196-4052-afd0-2c398e775fa5",
+        "homeTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "awayTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 1,
+        "date": "2048-10-05",
+        "time": "21:00"
+    },
+    {
+        "id": "ba463263-ccf7-4de4-b309-6b9efe8457ff",
+        "homeTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "awayTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 0,
+        "date": "2048-10-05",
+        "time": "21:00"
+    },
+    {
+        "id": "a39545ca-033a-4e86-a900-368c7840dd88",
+        "homeTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "awayTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 5,
+        "date": "2048-10-05",
+        "time": "21:00"
+    },
+    {
+        "id": "a2bf8d96-ddd0-44d5-bab7-ed992a4e894c",
+        "homeTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "awayTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 1,
+        "date": "2048-10-05",
+        "time": "21:00"
+    },
+    {
+        "id": "8e03c5fe-520d-496e-8a48-ccc8dbf90c87",
+        "homeTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "awayTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 3,
+        "date": "2048-10-05",
+        "time": "21:00"
+    },
+    {
+        "id": "3bd17740-b9dd-4f13-a809-8847449fa54b",
+        "homeTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "awayTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 1,
+        "date": "2048-10-05",
+        "time": "21:00"
+    },
+    {
+        "id": "bc4d5efd-d425-4db5-b92d-87b1fb62c5dd",
+        "homeTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "awayTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 3,
+        "date": "2048-10-05",
+        "time": "21:00"
+    },
+    {
+        "id": "55d09478-8ff0-4324-8a11-6a964a2caf60",
+        "homeTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "awayTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 0,
+        "date": "2048-10-12",
+        "time": "21:00"
+    },
+    {
+        "id": "580d9650-c1de-4ce1-a5c1-38025af709f7",
+        "homeTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "awayTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 1,
+        "date": "2048-10-12",
+        "time": "21:00"
+    },
+    {
+        "id": "3a129b1e-b879-493d-ab77-096a8b32d017",
+        "homeTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "awayTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 5,
+        "date": "2048-10-12",
+        "time": "21:00"
+    },
+    {
+        "id": "366c8ff7-51ab-43b8-be89-cf69abfee9a0",
+        "homeTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "awayTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 5,
+        "date": "2048-10-12",
+        "time": "21:00"
+    },
+    {
+        "id": "76d59680-796b-4089-88b4-83bdfb41bf73",
+        "homeTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "awayTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 4,
+        "date": "2048-10-12",
+        "time": "21:00"
+    },
+    {
+        "id": "82b1d423-6178-436b-8529-c8f4eb964cba",
+        "homeTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "awayTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 5,
+        "date": "2048-10-12",
+        "time": "21:00"
+    },
+    {
+        "id": "8305d4fd-2eb5-4c44-8e37-516a2e497e8e",
+        "homeTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "awayTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 4,
+        "date": "2048-10-12",
+        "time": "21:00"
+    },
+    {
+        "id": "a5988bd1-f893-445b-93b0-7a0790992472",
+        "homeTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "awayTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 1,
+        "date": "2048-10-12",
+        "time": "21:00"
+    },
+    {
+        "id": "8eed7f13-89ae-4fc6-9ead-2439452c736e",
+        "homeTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "awayTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 5,
+        "date": "2048-10-12",
+        "time": "21:00"
+    },
+    {
+        "id": "09a0f78a-3efc-434d-ab67-5c74c70ba38b",
+        "homeTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "awayTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 3,
+        "date": "2048-10-12",
+        "time": "21:00"
+    },
+    {
+        "id": "fb7c7eec-336f-4828-a9c6-8bdc4c3a0143",
+        "homeTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "awayTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 4,
+        "date": "2048-10-19",
+        "time": "21:00"
+    },
+    {
+        "id": "dd8db15e-b566-4dc2-9bd5-8f3f457c9cd6",
+        "homeTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "awayTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 5,
+        "date": "2048-10-19",
+        "time": "21:00"
+    },
+    {
+        "id": "488bd921-c581-48fe-b4d5-449e11b53678",
+        "homeTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "awayTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 3,
+        "date": "2048-10-19",
+        "time": "21:00"
+    },
+    {
+        "id": "fc97b915-2784-4662-a7bc-e8f070d7461e",
+        "homeTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "awayTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 5,
+        "date": "2048-10-19",
+        "time": "21:00"
+    },
+    {
+        "id": "8f8f3e91-09b5-4f30-80f2-00b40749aec8",
+        "homeTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "awayTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 1,
+        "date": "2048-10-19",
+        "time": "21:00"
+    },
+    {
+        "id": "9f465046-f20d-4b51-864d-e97a0d53b345",
+        "homeTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "awayTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 0,
+        "date": "2048-10-19",
+        "time": "21:00"
+    },
+    {
+        "id": "d00b9af6-b141-4b0b-8176-18b007ce2ad5",
+        "homeTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "awayTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 0,
+        "date": "2048-10-19",
+        "time": "21:00"
+    },
+    {
+        "id": "8797dafc-bfd5-460b-aa5f-176f8cd7cebe",
+        "homeTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "awayTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 2,
+        "date": "2048-10-19",
+        "time": "21:00"
+    },
+    {
+        "id": "8b4583a3-4d6a-40fc-b71e-04fb5fed8a85",
+        "homeTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "awayTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 5,
+        "date": "2048-10-19",
+        "time": "21:00"
+    },
+    {
+        "id": "21fac754-66ca-4503-a824-f98a3e77a087",
+        "homeTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "awayTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 3,
+        "date": "2048-10-19",
+        "time": "21:00"
+    },
+    {
+        "id": "2d94d9e0-7ed0-4531-87f0-f748f22718b3",
+        "homeTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "awayTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 2,
+        "date": "2048-10-26",
+        "time": "21:00"
+    },
+    {
+        "id": "09d9b67c-dd76-439d-bd0d-bb57b82dc878",
+        "homeTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "awayTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 0,
+        "date": "2048-10-26",
+        "time": "21:00"
+    },
+    {
+        "id": "fb8a851e-40cc-483d-b170-b13d83560d36",
+        "homeTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "awayTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 0,
+        "date": "2048-10-26",
+        "time": "21:00"
+    },
+    {
+        "id": "7b2325bd-3999-4a75-bd57-51da0c1c3ec2",
+        "homeTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "awayTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 1,
+        "date": "2048-10-26",
+        "time": "21:00"
+    },
+    {
+        "id": "f03f0484-788d-41d5-9b4c-1a5684d93ffa",
+        "homeTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "awayTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 3,
+        "date": "2048-10-26",
+        "time": "21:00"
+    },
+    {
+        "id": "a1eaf8a7-0763-4be1-8a3f-cd0457676fb9",
+        "homeTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "awayTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 5,
+        "date": "2048-10-26",
+        "time": "21:00"
+    },
+    {
+        "id": "2a73e814-b5f6-4892-b84b-b08054608bf3",
+        "homeTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "awayTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 4,
+        "date": "2048-10-26",
+        "time": "21:00"
+    },
+    {
+        "id": "0d7e4163-a2d5-4b26-afe8-f9e9bff44995",
+        "homeTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "awayTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 3,
+        "date": "2048-10-26",
+        "time": "21:00"
+    },
+    {
+        "id": "ecf59643-c905-4b88-a6a8-8c9f842458dc",
+        "homeTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "awayTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 2,
+        "date": "2048-10-26",
+        "time": "21:00"
+    },
+    {
+        "id": "985e6d11-e926-4064-9190-5ab4a025b79d",
+        "homeTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "awayTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 1,
+        "date": "2048-10-26",
+        "time": "21:00"
+    },
+    {
+        "id": "e75de51a-4399-412a-b5b0-b25fe211b730",
+        "homeTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "awayTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 5,
+        "date": "2048-11-02",
+        "time": "21:00"
+    },
+    {
+        "id": "8d8d60f0-8e61-473d-be7e-f5db088184d9",
+        "homeTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "awayTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 4,
+        "date": "2048-11-02",
+        "time": "21:00"
+    },
+    {
+        "id": "c920a47b-e659-4b42-a369-7e6caec8a578",
+        "homeTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "awayTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 3,
+        "date": "2048-11-02",
+        "time": "21:00"
+    },
+    {
+        "id": "9796a7e2-40ea-48ae-8cd7-fcdd60632d39",
+        "homeTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "awayTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 5,
+        "date": "2048-11-02",
+        "time": "21:00"
+    },
+    {
+        "id": "e5f576b6-0003-4c41-a304-d724db58bc65",
+        "homeTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "awayTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 2,
+        "date": "2048-11-02",
+        "time": "21:00"
+    },
+    {
+        "id": "6ba394f6-6f04-4948-848b-05e40c394dd4",
+        "homeTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "awayTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 3,
+        "date": "2048-11-02",
+        "time": "21:00"
+    },
+    {
+        "id": "85cc3771-bd7d-4827-8c9f-96268a458050",
+        "homeTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "awayTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 2,
+        "date": "2048-11-02",
+        "time": "21:00"
+    },
+    {
+        "id": "80f4e601-da6b-454d-83f2-3602466e68f9",
+        "homeTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "awayTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 3,
+        "date": "2048-11-02",
+        "time": "21:00"
+    },
+    {
+        "id": "21aca09e-2508-4570-96ea-43784c7eef96",
+        "homeTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "awayTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 0,
+        "date": "2048-11-02",
+        "time": "21:00"
+    },
+    {
+        "id": "c9c6a053-146f-4672-9871-99b4d29cc7a3",
+        "homeTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "awayTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 1,
+        "date": "2048-11-02",
+        "time": "21:00"
+    },
+    {
+        "id": "4ee5b7c9-feca-45ed-b9c6-a0e46c75658c",
+        "homeTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "awayTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 4,
+        "date": "2048-11-09",
+        "time": "21:00"
+    },
+    {
+        "id": "622994d9-b888-4c04-a69c-767cd4cc8b5f",
+        "homeTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "awayTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 2,
+        "date": "2048-11-09",
+        "time": "21:00"
+    },
+    {
+        "id": "23a55e46-ba11-4e0c-a351-3d9b7693d1e0",
+        "homeTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "awayTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 1,
+        "date": "2048-11-09",
+        "time": "21:00"
+    },
+    {
+        "id": "4a18526b-4bf3-4f3e-82ea-68abb7f6d136",
+        "homeTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "awayTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 3,
+        "date": "2048-11-09",
+        "time": "21:00"
+    },
+    {
+        "id": "84ab54e4-1db8-43c8-b441-f84a02913942",
+        "homeTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "awayTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 3,
+        "date": "2048-11-09",
+        "time": "21:00"
+    },
+    {
+        "id": "b3bd0aa1-0871-4e93-96b4-3be74a3bd102",
+        "homeTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "awayTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 2,
+        "date": "2048-11-09",
+        "time": "21:00"
+    },
+    {
+        "id": "07b95cc2-280b-4d38-b2f4-f290c9389cab",
+        "homeTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "awayTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 4,
+        "date": "2048-11-09",
+        "time": "21:00"
+    },
+    {
+        "id": "d2a3ea24-983d-4661-b533-529938c31704",
+        "homeTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "awayTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 4,
+        "date": "2048-11-09",
+        "time": "21:00"
+    },
+    {
+        "id": "be387840-28b4-4b3c-a0b5-82a8b5b7606a",
+        "homeTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "awayTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 0,
+        "date": "2048-11-09",
+        "time": "21:00"
+    },
+    {
+        "id": "5513b7cf-7278-4cc2-9f49-9e709abc5ce4",
+        "homeTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "awayTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 0,
+        "date": "2048-11-09",
+        "time": "21:00"
+    },
+    {
+        "id": "315260e6-627f-4d7d-ad7b-d3b23879475b",
+        "homeTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "awayTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 1,
+        "date": "2048-11-16",
+        "time": "21:00"
+    },
+    {
+        "id": "363ed680-955c-4e09-a3d8-dbf783ba5bb0",
+        "homeTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "awayTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 1,
+        "date": "2048-11-16",
+        "time": "21:00"
+    },
+    {
+        "id": "be448c8d-f9bf-4a3d-a40c-f7448e2c0ffa",
+        "homeTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "awayTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 1,
+        "date": "2048-11-16",
+        "time": "21:00"
+    },
+    {
+        "id": "cdabd8e9-88e3-4364-8e02-6333ecb584de",
+        "homeTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "awayTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 2,
+        "date": "2048-11-16",
+        "time": "21:00"
+    },
+    {
+        "id": "dcc12faa-9655-44ff-bce4-384f46a13de4",
+        "homeTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "awayTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 4,
+        "date": "2048-11-16",
+        "time": "21:00"
+    },
+    {
+        "id": "e1e0f9cf-82b7-4a3e-a849-0da2c8a19e76",
+        "homeTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "awayTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 2,
+        "date": "2048-11-16",
+        "time": "21:00"
+    },
+    {
+        "id": "4573c4e5-d247-44e5-80af-28fda1926fdd",
+        "homeTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "awayTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 2,
+        "date": "2048-11-16",
+        "time": "21:00"
+    },
+    {
+        "id": "f4231dbc-d38a-4270-9068-44845d443654",
+        "homeTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "awayTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 2,
+        "date": "2048-11-16",
+        "time": "21:00"
+    },
+    {
+        "id": "0116d77e-889f-460a-ba87-9eec9b02f1fc",
+        "homeTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "awayTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 4,
+        "date": "2048-11-16",
+        "time": "21:00"
+    },
+    {
+        "id": "80ee3559-a245-4c38-bc52-f754f2549a1d",
+        "homeTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "awayTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 3,
+        "date": "2048-11-16",
+        "time": "21:00"
+    },
+    {
+        "id": "fa21a202-6a20-43ec-a6b2-2df3217adfa2",
+        "homeTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "awayTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 4,
+        "date": "2048-11-23",
+        "time": "21:00"
+    },
+    {
+        "id": "5e88ebd2-858f-4021-bb60-48da0c9aacac",
+        "homeTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "awayTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 0,
+        "date": "2048-11-23",
+        "time": "21:00"
+    },
+    {
+        "id": "f0d3810c-c971-4414-adf9-7679995576fb",
+        "homeTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "awayTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 0,
+        "date": "2048-11-23",
+        "time": "21:00"
+    },
+    {
+        "id": "156a2e35-5f6e-43ad-a7f1-95711f2523db",
+        "homeTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "awayTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 0,
+        "date": "2048-11-23",
+        "time": "21:00"
+    },
+    {
+        "id": "ecd2a6e6-8151-4227-97a1-c697138b1e56",
+        "homeTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "awayTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 1,
+        "date": "2048-11-23",
+        "time": "21:00"
+    },
+    {
+        "id": "900b5902-3da1-4e21-87f4-775553f68e2c",
+        "homeTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "awayTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 2,
+        "date": "2048-11-23",
+        "time": "21:00"
+    },
+    {
+        "id": "8b7c0ef7-0479-4c14-8ce3-638d987ef42b",
+        "homeTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "awayTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 4,
+        "date": "2048-11-23",
+        "time": "21:00"
+    },
+    {
+        "id": "cca00ce4-9d35-4f40-b6ca-e66323298bd6",
+        "homeTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "awayTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 3,
+        "date": "2048-11-23",
+        "time": "21:00"
+    },
+    {
+        "id": "d2104f3f-5666-48ba-a1fd-41522554a4c7",
+        "homeTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "awayTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 4,
+        "date": "2048-11-23",
+        "time": "21:00"
+    },
+    {
+        "id": "4d339b91-5915-4375-8dcb-9414a2a598b5",
+        "homeTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "awayTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 1,
+        "date": "2048-11-23",
+        "time": "21:00"
+    },
+    {
+        "id": "b62d3ee4-3bca-45f0-b883-94280a97bd61",
+        "homeTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "awayTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 0,
+        "date": "2048-11-30",
+        "time": "21:00"
+    },
+    {
+        "id": "65c51f25-f33a-49d7-856d-b64bdda8449f",
+        "homeTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "awayTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 2,
+        "date": "2048-11-30",
+        "time": "21:00"
+    },
+    {
+        "id": "515c8876-225d-4293-a8e2-1f3a4c9376e1",
+        "homeTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "awayTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 4,
+        "date": "2048-11-30",
+        "time": "21:00"
+    },
+    {
+        "id": "f8b780b7-51ab-4a1c-a7ed-2b804c8d8c21",
+        "homeTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "awayTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 0,
+        "date": "2048-11-30",
+        "time": "21:00"
+    },
+    {
+        "id": "6fd93c7f-68a9-46af-9d75-130cdb256458",
+        "homeTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "awayTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 2,
+        "date": "2048-11-30",
+        "time": "21:00"
+    },
+    {
+        "id": "35ca2293-562d-4118-8d7d-bab4ed285b2b",
+        "homeTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "awayTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 0,
+        "date": "2048-11-30",
+        "time": "21:00"
+    },
+    {
+        "id": "f2c86338-450c-4071-8aa5-f225e55c67b4",
+        "homeTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "awayTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 0,
+        "date": "2048-11-30",
+        "time": "21:00"
+    },
+    {
+        "id": "ae16c79d-24c3-4688-bb19-9d87c75a5f23",
+        "homeTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "awayTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 5,
+        "date": "2048-11-30",
+        "time": "21:00"
+    },
+    {
+        "id": "da11d7c1-9363-4592-90b5-a5285be31e2d",
+        "homeTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "awayTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 0,
+        "date": "2048-11-30",
+        "time": "21:00"
+    },
+    {
+        "id": "8fb536af-57c6-48bc-a1a2-14ee971c9ec6",
+        "homeTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "awayTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 0,
+        "date": "2048-11-30",
+        "time": "21:00"
+    },
+    {
+        "id": "c241714a-f740-433b-ae29-3075a1bc9335",
+        "homeTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "awayTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 1,
+        "date": "2048-12-07",
+        "time": "21:00"
+    },
+    {
+        "id": "3b7ddca0-9557-43e0-b7b1-a9ca895953a0",
+        "homeTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "awayTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 4,
+        "date": "2048-12-07",
+        "time": "21:00"
+    },
+    {
+        "id": "5fc2d2e9-beab-429a-9f60-01ae808e7732",
+        "homeTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "awayTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 1,
+        "date": "2048-12-07",
+        "time": "21:00"
+    },
+    {
+        "id": "98c7fc8e-06a0-4ee6-9075-411c39edcdd5",
+        "homeTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "awayTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 3,
+        "date": "2048-12-07",
+        "time": "21:00"
+    },
+    {
+        "id": "40c37823-76df-4371-8695-e12d9e038535",
+        "homeTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "awayTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 5,
+        "date": "2048-12-07",
+        "time": "21:00"
+    },
+    {
+        "id": "9d6f088f-5f24-4988-aa6e-e2467c03be06",
+        "homeTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "awayTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 1,
+        "date": "2048-12-07",
+        "time": "21:00"
+    },
+    {
+        "id": "cfd7b6d6-365a-4d74-9b2c-1b8d35286307",
+        "homeTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "awayTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 0,
+        "date": "2048-12-07",
+        "time": "21:00"
+    },
+    {
+        "id": "173a183b-d467-4172-9dab-dca2b6d56c7a",
+        "homeTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "awayTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 3,
+        "date": "2048-12-07",
+        "time": "21:00"
+    },
+    {
+        "id": "b93e82fd-25bc-4ab3-8c20-6868f326c577",
+        "homeTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "awayTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 2,
+        "date": "2048-12-07",
+        "time": "21:00"
+    },
+    {
+        "id": "8b7e7240-e97f-4605-9f59-192c20dc0177",
+        "homeTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "awayTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 2,
+        "date": "2048-12-07",
+        "time": "21:00"
+    },
+    {
+        "id": "e6d23487-0b2b-4e17-9d4b-aee4e2c5696a",
+        "homeTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "awayTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 3,
+        "date": "2048-12-28",
+        "time": "21:00"
+    },
+    {
+        "id": "a2cfedec-ac89-4782-8e6b-ed5f937095f0",
+        "homeTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "awayTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 0,
+        "date": "2048-12-28",
+        "time": "21:00"
+    },
+    {
+        "id": "ecc4ac71-ddaf-4fb2-ab48-96150c49e84b",
+        "homeTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "awayTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 5,
+        "date": "2048-12-28",
+        "time": "21:00"
+    },
+    {
+        "id": "9bbd6e20-2aae-4acc-8c96-a43c4810579a",
+        "homeTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "awayTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 0,
+        "date": "2048-12-28",
+        "time": "21:00"
+    },
+    {
+        "id": "3e4bab25-6369-45c5-ac00-66a113b495f3",
+        "homeTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "awayTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 0,
+        "date": "2048-12-28",
+        "time": "21:00"
+    },
+    {
+        "id": "45433664-02ad-4b4b-b705-f14c80f7dacf",
+        "homeTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "awayTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 5,
+        "date": "2048-12-28",
+        "time": "21:00"
+    },
+    {
+        "id": "3f74a3fa-272f-4295-ae34-89463c0bcde7",
+        "homeTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "awayTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 2,
+        "date": "2048-12-28",
+        "time": "21:00"
+    },
+    {
+        "id": "1eb71be5-f938-473f-b1c2-1a218ffb2fc8",
+        "homeTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "awayTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 3,
+        "date": "2048-12-28",
+        "time": "21:00"
+    },
+    {
+        "id": "8340fd58-b198-4d16-b904-6a118e9b6a52",
+        "homeTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "awayTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 3,
+        "date": "2048-12-28",
+        "time": "21:00"
+    },
+    {
+        "id": "9a6e7c0e-287f-451c-b15d-7925997ed8dd",
+        "homeTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "awayTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 0,
+        "date": "2048-12-28",
+        "time": "21:00"
+    },
+    {
+        "id": "01550f2e-58d5-4c5c-9f65-1b8fc8f6bee6",
+        "homeTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "awayTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 4,
+        "date": "2049-01-04",
+        "time": "21:00"
+    },
+    {
+        "id": "fba3a366-9d79-4847-9ab7-2ff8ecbc6b68",
+        "homeTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "awayTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 0,
+        "date": "2049-01-04",
+        "time": "21:00"
+    },
+    {
+        "id": "5a548c65-e135-4c3a-a47c-14a96e028640",
+        "homeTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "awayTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 1,
+        "date": "2049-01-04",
+        "time": "21:00"
+    },
+    {
+        "id": "a5441d3f-3d0c-4e6c-8a6e-ad5c9ca77e50",
+        "homeTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "awayTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 4,
+        "date": "2049-01-04",
+        "time": "21:00"
+    },
+    {
+        "id": "2e9bba32-98fc-4382-814b-08ce39fa9b34",
+        "homeTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "awayTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 3,
+        "date": "2049-01-04",
+        "time": "21:00"
+    },
+    {
+        "id": "98d89262-acfd-4601-b50e-d52e03d1bfd5",
+        "homeTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "awayTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 2,
+        "date": "2049-01-04",
+        "time": "21:00"
+    },
+    {
+        "id": "0a3902f0-6cc0-4515-8bb1-6e18c33fbd08",
+        "homeTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "awayTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 1,
+        "date": "2049-01-04",
+        "time": "21:00"
+    },
+    {
+        "id": "1a6e4052-fbc4-4bc3-85b7-0bab2d94894a",
+        "homeTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "awayTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 1,
+        "date": "2049-01-04",
+        "time": "21:00"
+    },
+    {
+        "id": "f2e16aca-14a2-4577-95d9-81dc7e0a7464",
+        "homeTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "awayTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 1,
+        "date": "2049-01-04",
+        "time": "21:00"
+    },
+    {
+        "id": "1a6ce87c-b658-4f93-9bf5-b8dbc3168569",
+        "homeTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "awayTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 2,
+        "date": "2049-01-04",
+        "time": "21:00"
+    },
+    {
+        "id": "054f1d62-0386-4efa-8135-46cdfd1f7ef5",
+        "homeTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "awayTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 2,
+        "date": "2049-01-11",
+        "time": "21:00"
+    },
+    {
+        "id": "2d24fe8e-178a-470e-b830-a3777e91831f",
+        "homeTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "awayTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 3,
+        "date": "2049-01-11",
+        "time": "21:00"
+    },
+    {
+        "id": "89c53476-7a09-48df-9f2a-4d5fa6eff76f",
+        "homeTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "awayTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 5,
+        "date": "2049-01-11",
+        "time": "21:00"
+    },
+    {
+        "id": "2aed6018-f73a-4f81-9ee7-9237bffbf628",
+        "homeTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "awayTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 5,
+        "date": "2049-01-11",
+        "time": "21:00"
+    },
+    {
+        "id": "47f47107-5006-4aef-8a7d-e25a9030745c",
+        "homeTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "awayTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 1,
+        "date": "2049-01-11",
+        "time": "21:00"
+    },
+    {
+        "id": "799ee188-47aa-46c5-8be7-252125a056d2",
+        "homeTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "awayTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 2,
+        "date": "2049-01-11",
+        "time": "21:00"
+    },
+    {
+        "id": "8d4eceb3-384e-46f5-905f-deb80bba959c",
+        "homeTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "awayTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 2,
+        "date": "2049-01-11",
+        "time": "21:00"
+    },
+    {
+        "id": "01b94de7-51fc-4b6a-9230-799aa411c11d",
+        "homeTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "awayTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 2,
+        "date": "2049-01-11",
+        "time": "21:00"
+    },
+    {
+        "id": "dec1d12e-c0f0-478d-b539-dfa21c90e9dc",
+        "homeTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "awayTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 2,
+        "date": "2049-01-11",
+        "time": "21:00"
+    },
+    {
+        "id": "407cf89c-0500-48e1-b4e5-4c7e52f5e8dd",
+        "homeTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "awayTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 2,
+        "date": "2049-01-11",
+        "time": "21:00"
+    },
+    {
+        "id": "2231ea0a-f191-4749-835f-81ac1692da27",
+        "homeTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "awayTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 4,
+        "date": "2049-01-18",
+        "time": "21:00"
+    },
+    {
+        "id": "4b8b782a-dbb9-4dd6-92a4-69f96de60923",
+        "homeTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "awayTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 4,
+        "date": "2049-01-18",
+        "time": "21:00"
+    },
+    {
+        "id": "e3cfd8df-6441-47da-bddb-eef2c20a1f75",
+        "homeTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "awayTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 0,
+        "date": "2049-01-18",
+        "time": "21:00"
+    },
+    {
+        "id": "5fab7259-997b-4636-b8d2-ccaed8b5315b",
+        "homeTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "awayTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 1,
+        "date": "2049-01-18",
+        "time": "21:00"
+    },
+    {
+        "id": "8dfef118-fe90-4637-b01a-0879d2ea080c",
+        "homeTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "awayTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 1,
+        "date": "2049-01-18",
+        "time": "21:00"
+    },
+    {
+        "id": "2cb99a96-d052-4dca-826f-0c84ca316360",
+        "homeTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "awayTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 0,
+        "date": "2049-01-18",
+        "time": "21:00"
+    },
+    {
+        "id": "9069ada6-ec81-4c4e-855f-b3fb30eff54d",
+        "homeTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "awayTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 4,
+        "date": "2049-01-18",
+        "time": "21:00"
+    },
+    {
+        "id": "5349be99-2c02-492a-84ab-6bf04473d8b7",
+        "homeTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "awayTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 5,
+        "date": "2049-01-18",
+        "time": "21:00"
+    },
+    {
+        "id": "f2c3da09-9764-475e-8154-ece909e5652a",
+        "homeTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "awayTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 0,
+        "date": "2049-01-18",
+        "time": "21:00"
+    },
+    {
+        "id": "745e6698-5e34-483a-8fe4-187404758c06",
+        "homeTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "awayTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 0,
+        "date": "2049-01-18",
+        "time": "21:00"
+    },
+    {
+        "id": "768d2496-1c97-4ddb-8065-0ee7870fab65",
+        "homeTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "awayTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 2,
+        "date": "2049-01-25",
+        "time": "21:00"
+    },
+    {
+        "id": "ed19ee7a-c264-44d9-b6db-3c33a7832ee6",
+        "homeTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "awayTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 3,
+        "date": "2049-01-25",
+        "time": "21:00"
+    },
+    {
+        "id": "853e9dd3-3d3c-4037-8086-9770bffae1ae",
+        "homeTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "awayTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 0,
+        "date": "2049-01-25",
+        "time": "21:00"
+    },
+    {
+        "id": "f8ddb44b-74e5-4f69-9f21-3259a64b758d",
+        "homeTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "awayTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 2,
+        "date": "2049-01-25",
+        "time": "21:00"
+    },
+    {
+        "id": "43fb1abd-1ede-4fe7-a113-51600540234f",
+        "homeTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "awayTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 4,
+        "date": "2049-01-25",
+        "time": "21:00"
+    },
+    {
+        "id": "ad001780-5f47-43ff-bc76-e5ab947a5d90",
+        "homeTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "awayTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 1,
+        "date": "2049-01-25",
+        "time": "21:00"
+    },
+    {
+        "id": "cb3ce5b8-bf2d-4657-998a-542d6c712cd3",
+        "homeTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "awayTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 1,
+        "date": "2049-01-25",
+        "time": "21:00"
+    },
+    {
+        "id": "2f06178e-02f7-400b-830e-ba6872501ebd",
+        "homeTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "awayTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 2,
+        "date": "2049-01-25",
+        "time": "21:00"
+    },
+    {
+        "id": "d7044867-8da0-4b26-81b6-bfd4fb5d5b44",
+        "homeTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "awayTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 0,
+        "date": "2049-01-25",
+        "time": "21:00"
+    },
+    {
+        "id": "43b13c73-3555-435d-93f5-6e30c4c6ec22",
+        "homeTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "awayTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 4,
+        "date": "2049-01-25",
+        "time": "21:00"
+    },
+    {
+        "id": "e3726307-ad41-4f46-9ece-dc8fb6d5ce3f",
+        "homeTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "awayTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 2,
+        "date": "2049-02-01",
+        "time": "21:00"
+    },
+    {
+        "id": "ec65ae6c-0438-449d-8ba6-936cd497ee54",
+        "homeTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "awayTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 1,
+        "date": "2049-02-01",
+        "time": "21:00"
+    },
+    {
+        "id": "53ddc181-881a-4be4-bb65-ffc30bb95af6",
+        "homeTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "awayTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 4,
+        "date": "2049-02-01",
+        "time": "21:00"
+    },
+    {
+        "id": "c72d400a-0c10-4ce5-b65a-6d7ae90eda06",
+        "homeTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "awayTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 0,
+        "date": "2049-02-01",
+        "time": "21:00"
+    },
+    {
+        "id": "bf0ed675-16b0-49c4-81ba-5b53c2d08faa",
+        "homeTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "awayTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 4,
+        "date": "2049-02-01",
+        "time": "21:00"
+    },
+    {
+        "id": "17e11435-ddcd-4bcc-8f01-fa1d21b7d391",
+        "homeTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "awayTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 4,
+        "date": "2049-02-01",
+        "time": "21:00"
+    },
+    {
+        "id": "e9cd8873-6193-4663-b4d6-7234e19f4db5",
+        "homeTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "awayTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 5,
+        "date": "2049-02-01",
+        "time": "21:00"
+    },
+    {
+        "id": "bf9dc4ab-b504-46bb-922a-e77e63da9430",
+        "homeTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "awayTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 1,
+        "date": "2049-02-01",
+        "time": "21:00"
+    },
+    {
+        "id": "825674fa-6556-4177-923f-381da79b5264",
+        "homeTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "awayTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 3,
+        "date": "2049-02-01",
+        "time": "21:00"
+    },
+    {
+        "id": "acc7c3d6-0fa2-4674-b67b-fa344cdaf1be",
+        "homeTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "awayTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 1,
+        "date": "2049-02-01",
+        "time": "21:00"
+    },
+    {
+        "id": "00e80e72-598c-4c21-964a-08aee3ed971e",
+        "homeTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "awayTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 5,
+        "date": "2049-02-08",
+        "time": "21:00"
+    },
+    {
+        "id": "47bdde76-54c1-466e-b093-1a36416049d4",
+        "homeTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "awayTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 1,
+        "date": "2049-02-08",
+        "time": "21:00"
+    },
+    {
+        "id": "af52a2a8-f9e2-4083-a1d4-af20f715c169",
+        "homeTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "awayTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 0,
+        "date": "2049-02-08",
+        "time": "21:00"
+    },
+    {
+        "id": "1c954ce8-5651-485b-973c-1b4d1d359c68",
+        "homeTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "awayTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 3,
+        "date": "2049-02-08",
+        "time": "21:00"
+    },
+    {
+        "id": "f2424ba8-38f8-4137-b200-a1f29552442f",
+        "homeTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "awayTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 4,
+        "date": "2049-02-08",
+        "time": "21:00"
+    },
+    {
+        "id": "00a143f4-82d7-41d2-8352-e1386718e92c",
+        "homeTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "awayTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 4,
+        "date": "2049-02-08",
+        "time": "21:00"
+    },
+    {
+        "id": "27eae070-5eb3-4cf9-8e34-7d097ba895b4",
+        "homeTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "awayTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 4,
+        "date": "2049-02-08",
+        "time": "21:00"
+    },
+    {
+        "id": "2fddcaaf-5f2f-40c5-8840-8c8aa6d3f5d3",
+        "homeTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "awayTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 0,
+        "date": "2049-02-08",
+        "time": "21:00"
+    },
+    {
+        "id": "534cfd44-f252-4968-967a-612864341c90",
+        "homeTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "awayTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 2,
+        "date": "2049-02-08",
+        "time": "21:00"
+    },
+    {
+        "id": "fc7de5f0-7520-4747-989e-ea42d825123b",
+        "homeTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "awayTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 2,
+        "date": "2049-02-08",
+        "time": "21:00"
+    },
+    {
+        "id": "10c50a23-3111-4b2a-a323-6e32c0a36e22",
+        "homeTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "awayTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 0,
+        "date": "2049-02-15",
+        "time": "21:00"
+    },
+    {
+        "id": "acecb121-add1-4c7b-b457-b3ccb7ae0e7c",
+        "homeTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "awayTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 3,
+        "date": "2049-02-15",
+        "time": "21:00"
+    },
+    {
+        "id": "97f3f242-adb9-43cf-b66a-e22839a8bca0",
+        "homeTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "awayTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 0,
+        "date": "2049-02-15",
+        "time": "21:00"
+    },
+    {
+        "id": "616d818c-1ce7-494d-8e48-91512ee7d8c2",
+        "homeTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "awayTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 5,
+        "date": "2049-02-15",
+        "time": "21:00"
+    },
+    {
+        "id": "87cee25f-4eb8-431a-b4f5-e151b17db774",
+        "homeTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "awayTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 4,
+        "date": "2049-02-15",
+        "time": "21:00"
+    },
+    {
+        "id": "083d0ae0-6aec-4412-a821-f4b42e3f0f3f",
+        "homeTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "awayTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 4,
+        "date": "2049-02-15",
+        "time": "21:00"
+    },
+    {
+        "id": "47885325-2552-40ec-8ace-8026ffdb49d0",
+        "homeTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "awayTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 1,
+        "date": "2049-02-15",
+        "time": "21:00"
+    },
+    {
+        "id": "88a8ef6e-b0cc-48eb-b709-f20e594afdfa",
+        "homeTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "awayTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 2,
+        "date": "2049-02-15",
+        "time": "21:00"
+    },
+    {
+        "id": "ae85201d-acc4-4dcd-bf77-71f1747780ed",
+        "homeTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "awayTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 4,
+        "date": "2049-02-15",
+        "time": "21:00"
+    },
+    {
+        "id": "3bc6b9bb-cf27-4a32-b69c-89b7708ce9d0",
+        "homeTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "awayTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 1,
+        "date": "2049-02-15",
+        "time": "21:00"
+    },
+    {
+        "id": "c9099a90-cdac-431f-b72e-ceb31a02b1c0",
+        "homeTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "awayTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 0,
+        "date": "2049-02-22",
+        "time": "21:00"
+    },
+    {
+        "id": "50bc38b9-d927-4127-b598-bfa79b2102e1",
+        "homeTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "awayTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 3,
+        "date": "2049-02-22",
+        "time": "21:00"
+    },
+    {
+        "id": "f0c2f3a3-9754-48b4-84ba-91e559f24c39",
+        "homeTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "awayTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 1,
+        "date": "2049-02-22",
+        "time": "21:00"
+    },
+    {
+        "id": "06198825-5397-4300-af41-d052c37bb8c9",
+        "homeTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "awayTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 2,
+        "date": "2049-02-22",
+        "time": "21:00"
+    },
+    {
+        "id": "9b5ac64f-7fad-445a-8834-7fd6f3e92c85",
+        "homeTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "awayTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 5,
+        "date": "2049-02-22",
+        "time": "21:00"
+    },
+    {
+        "id": "b57f3bac-3ba4-41c5-a2a2-d8480bc2330a",
+        "homeTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "awayTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 5,
+        "date": "2049-02-22",
+        "time": "21:00"
+    },
+    {
+        "id": "91f13ff2-63c2-47a4-9202-3dd1a1ff6a65",
+        "homeTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "awayTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 5,
+        "date": "2049-02-22",
+        "time": "21:00"
+    },
+    {
+        "id": "bd61f2ba-810a-4e21-9c19-26e4b5cb29ce",
+        "homeTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "awayTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 1,
+        "date": "2049-02-22",
+        "time": "21:00"
+    },
+    {
+        "id": "640c4b22-5d72-43bd-ae21-a0e159eddb9b",
+        "homeTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "awayTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 3,
+        "date": "2049-02-22",
+        "time": "21:00"
+    },
+    {
+        "id": "ce23e56f-1c97-4f38-81d4-a55ca9d97bde",
+        "homeTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "awayTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 3,
+        "date": "2049-02-22",
+        "time": "21:00"
+    },
+    {
+        "id": "5f8e8691-f74d-4716-8151-6b7b72c314fa",
+        "homeTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "awayTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 5,
+        "date": "2049-03-01",
+        "time": "21:00"
+    },
+    {
+        "id": "d9b0c3c1-e59a-41ef-8157-d2ff626a5252",
+        "homeTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "awayTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 2,
+        "date": "2049-03-01",
+        "time": "21:00"
+    },
+    {
+        "id": "6d58796b-c47d-441a-af61-9cfd79d8ab90",
+        "homeTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "awayTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 4,
+        "date": "2049-03-01",
+        "time": "21:00"
+    },
+    {
+        "id": "cc228da6-4012-433b-89c8-a11dec03abcc",
+        "homeTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "awayTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 5,
+        "date": "2049-03-01",
+        "time": "21:00"
+    },
+    {
+        "id": "2825c5a5-ba8d-4927-9e29-8e37d539547c",
+        "homeTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "awayTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 5,
+        "date": "2049-03-01",
+        "time": "21:00"
+    },
+    {
+        "id": "91a185bb-1eec-458a-8839-b44a58622048",
+        "homeTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "awayTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 0,
+        "date": "2049-03-01",
+        "time": "21:00"
+    },
+    {
+        "id": "ce33f73e-bc1b-4ac3-94fe-25b63a7055f4",
+        "homeTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "awayTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 4,
+        "date": "2049-03-01",
+        "time": "21:00"
+    },
+    {
+        "id": "003e540a-bc08-435b-9729-3ae0d19e578e",
+        "homeTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "awayTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 2,
+        "date": "2049-03-01",
+        "time": "21:00"
+    },
+    {
+        "id": "346443dc-bc1a-4a41-88ba-ca1fdef783b8",
+        "homeTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "awayTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 4,
+        "date": "2049-03-01",
+        "time": "21:00"
+    },
+    {
+        "id": "454d31d2-1c68-4020-978b-0ac3db5fee76",
+        "homeTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "awayTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 2,
+        "date": "2049-03-01",
+        "time": "21:00"
+    },
+    {
+        "id": "331a4700-1922-4275-8e58-0bfc57c9630b",
+        "homeTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "awayTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 5,
+        "date": "2049-03-08",
+        "time": "21:00"
+    },
+    {
+        "id": "dde737c1-f844-41ce-8aa1-345283fd167a",
+        "homeTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "awayTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 4,
+        "date": "2049-03-08",
+        "time": "21:00"
+    },
+    {
+        "id": "47eae066-337a-4f26-bc59-c4828a440358",
+        "homeTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "awayTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 1,
+        "date": "2049-03-08",
+        "time": "21:00"
+    },
+    {
+        "id": "018e2c6b-5245-430d-86e8-a55f97c88a45",
+        "homeTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "awayTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 5,
+        "date": "2049-03-08",
+        "time": "21:00"
+    },
+    {
+        "id": "1a47e4ae-2e6b-4937-bd1d-0baebb4bdde3",
+        "homeTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "awayTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 3,
+        "date": "2049-03-08",
+        "time": "21:00"
+    },
+    {
+        "id": "b2e837ce-ea6d-47b9-bdb1-f70a652d0674",
+        "homeTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "awayTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 0,
+        "date": "2049-03-08",
+        "time": "21:00"
+    },
+    {
+        "id": "9815c18a-ce58-4668-a775-e964f90d2675",
+        "homeTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "awayTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 4,
+        "date": "2049-03-08",
+        "time": "21:00"
+    },
+    {
+        "id": "f26d7cc4-59f6-41fa-b9ff-69ae7a7d5e3e",
+        "homeTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "awayTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 4,
+        "date": "2049-03-08",
+        "time": "21:00"
+    },
+    {
+        "id": "768b3d72-d4af-4f50-abc2-137575e50be4",
+        "homeTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "awayTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 1,
+        "date": "2049-03-08",
+        "time": "21:00"
+    },
+    {
+        "id": "583f959c-99b5-4c92-b042-5de5fcc850dd",
+        "homeTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "awayTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 2,
+        "date": "2049-03-08",
+        "time": "21:00"
+    },
+    {
+        "id": "1c81e44b-1d4b-4128-af29-23bb4be0954b",
+        "homeTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "awayTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 1,
+        "date": "2049-03-15",
+        "time": "21:00"
+    },
+    {
+        "id": "8f8b7f4a-4e8e-4d2a-960e-860c57fe0bac",
+        "homeTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "awayTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 5,
+        "date": "2049-03-15",
+        "time": "21:00"
+    },
+    {
+        "id": "3f676292-3076-4c7a-abbb-170757d18af6",
+        "homeTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "awayTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 3,
+        "date": "2049-03-15",
+        "time": "21:00"
+    },
+    {
+        "id": "2607c758-7aeb-48ed-b211-c3ac63fb7548",
+        "homeTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "awayTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 3,
+        "date": "2049-03-15",
+        "time": "21:00"
+    },
+    {
+        "id": "3147bf42-e329-490c-882e-e71add2afeee",
+        "homeTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "awayTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 5,
+        "date": "2049-03-15",
+        "time": "21:00"
+    },
+    {
+        "id": "19e402aa-a75d-4c65-aa9a-42c1dd3acecd",
+        "homeTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "awayTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 3,
+        "date": "2049-03-15",
+        "time": "21:00"
+    },
+    {
+        "id": "ce0e92d9-a72e-4614-aba8-d302b6873bbc",
+        "homeTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "awayTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 1,
+        "date": "2049-03-15",
+        "time": "21:00"
+    },
+    {
+        "id": "16db5dae-9f1f-4cd0-b07d-6a959ce4210f",
+        "homeTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "awayTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 5,
+        "date": "2049-03-15",
+        "time": "21:00"
+    },
+    {
+        "id": "c8016bd1-cec2-4a89-8635-4aa54766d9ea",
+        "homeTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "awayTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 4,
+        "date": "2049-03-15",
+        "time": "21:00"
+    },
+    {
+        "id": "55849a52-9ee6-4502-a6b9-6f6b79c5a506",
+        "homeTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "awayTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 2,
+        "date": "2049-03-15",
+        "time": "21:00"
+    },
+    {
+        "id": "a5e41c6b-b204-4950-8437-19569af57a22",
+        "homeTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "awayTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 0,
+        "date": "2049-03-22",
+        "time": "21:00"
+    },
+    {
+        "id": "ca481592-5fa3-4d89-905d-0b7d7079dd6d",
+        "homeTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "awayTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 5,
+        "date": "2049-03-22",
+        "time": "21:00"
+    },
+    {
+        "id": "495a50d7-754d-4bd3-8932-c5fbf598252b",
+        "homeTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "awayTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 1,
+        "date": "2049-03-22",
+        "time": "21:00"
+    },
+    {
+        "id": "b12c0280-94e5-43d0-97f5-c78e7e3f4050",
+        "homeTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "awayTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 5,
+        "date": "2049-03-22",
+        "time": "21:00"
+    },
+    {
+        "id": "3f817573-b0ec-4ee2-a0a0-bc55ed1947c0",
+        "homeTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "awayTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 5,
+        "date": "2049-03-22",
+        "time": "21:00"
+    },
+    {
+        "id": "c7f1c827-bcd9-4f75-b43d-dcd3c187a263",
+        "homeTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "awayTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 3,
+        "date": "2049-03-22",
+        "time": "21:00"
+    },
+    {
+        "id": "09eedaf4-d49c-4137-a935-0f7610f275df",
+        "homeTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "awayTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 3,
+        "date": "2049-03-22",
+        "time": "21:00"
+    },
+    {
+        "id": "f7e15f35-5377-4ccb-aa93-60b9118e4f24",
+        "homeTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "awayTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 3,
+        "date": "2049-03-22",
+        "time": "21:00"
+    },
+    {
+        "id": "4a3411fe-fb26-438c-9257-1d7eda63452e",
+        "homeTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "awayTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 2,
+        "date": "2049-03-22",
+        "time": "21:00"
+    },
+    {
+        "id": "64974afd-8eb1-498d-802f-3aac38865aea",
+        "homeTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "awayTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 1,
+        "date": "2049-03-22",
+        "time": "21:00"
+    },
+    {
+        "id": "5fc61465-b0a7-454a-9266-8f4d438a637c",
+        "homeTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "awayTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 3,
+        "date": "2049-03-29",
+        "time": "21:00"
+    },
+    {
+        "id": "d2e5b6d7-4971-4cec-992a-4c87681e4a39",
+        "homeTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "awayTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 0,
+        "date": "2049-03-29",
+        "time": "21:00"
+    },
+    {
+        "id": "26224759-a673-409c-aae6-4fe1cf900df2",
+        "homeTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "awayTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 4,
+        "date": "2049-03-29",
+        "time": "21:00"
+    },
+    {
+        "id": "68c3d9d5-5b32-4597-a331-aebfeb595fed",
+        "homeTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "awayTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 3,
+        "date": "2049-03-29",
+        "time": "21:00"
+    },
+    {
+        "id": "d7cf122d-2545-4f5d-bb57-e3ae27be5975",
+        "homeTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "awayTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 5,
+        "date": "2049-03-29",
+        "time": "21:00"
+    },
+    {
+        "id": "b964bcbc-32ef-416a-b1ab-b9d8963bec2d",
+        "homeTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "awayTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 2,
+        "date": "2049-03-29",
+        "time": "21:00"
+    },
+    {
+        "id": "c4017e50-8ef8-40a2-a8db-8e7e4ad60319",
+        "homeTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "awayTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 3,
+        "date": "2049-03-29",
+        "time": "21:00"
+    },
+    {
+        "id": "96e6e0e2-bc72-48f4-b060-ded17fa1466f",
+        "homeTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "awayTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 4,
+        "date": "2049-03-29",
+        "time": "21:00"
+    },
+    {
+        "id": "151e1dd4-b799-4a12-abda-c52fc5628f04",
+        "homeTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "awayTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 1,
+        "date": "2049-03-29",
+        "time": "21:00"
+    },
+    {
+        "id": "e1656d66-f477-45e1-b87b-e4a7e7ebda66",
+        "homeTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "awayTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 3,
+        "date": "2049-03-29",
+        "time": "21:00"
+    },
+    {
+        "id": "bfda4b94-0e0d-4a92-ab0a-9e4da70b01b2",
+        "homeTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "awayTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 0,
+        "date": "2049-04-05",
+        "time": "21:00"
+    },
+    {
+        "id": "d544b9c0-c076-473f-ba58-65f7d40deb47",
+        "homeTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "awayTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 5,
+        "date": "2049-04-05",
+        "time": "21:00"
+    },
+    {
+        "id": "4e59a76a-b6ad-43f0-bd65-30dd31592fec",
+        "homeTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "awayTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 1,
+        "date": "2049-04-05",
+        "time": "21:00"
+    },
+    {
+        "id": "6364d499-f87e-460b-bb8c-21ee0e9ea9ff",
+        "homeTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "awayTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 1,
+        "date": "2049-04-05",
+        "time": "21:00"
+    },
+    {
+        "id": "4a330c49-6b37-4432-869f-0887cd7ad83c",
+        "homeTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "awayTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 2,
+        "date": "2049-04-05",
+        "time": "21:00"
+    },
+    {
+        "id": "385d7b6c-f7d8-46a4-adc7-5ba12cd0b8bf",
+        "homeTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "awayTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 4,
+        "date": "2049-04-05",
+        "time": "21:00"
+    },
+    {
+        "id": "acd9acc7-92a7-4ad3-872f-b2fdbcf7bba0",
+        "homeTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "awayTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 2,
+        "date": "2049-04-05",
+        "time": "21:00"
+    },
+    {
+        "id": "46ec4e44-9d85-44d6-94ea-6c67107e6063",
+        "homeTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "awayTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 4,
+        "date": "2049-04-05",
+        "time": "21:00"
+    },
+    {
+        "id": "74820287-de59-4122-b467-b2749e6ab84d",
+        "homeTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "awayTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 5,
+        "date": "2049-04-05",
+        "time": "21:00"
+    },
+    {
+        "id": "ebc1585f-000a-40cf-8b4f-0b61ea14b75f",
+        "homeTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "awayTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 1,
+        "date": "2049-04-05",
+        "time": "21:00"
+    },
+    {
+        "id": "b4bfdd28-ffd1-4c24-b53f-ace5b2dcea4a",
+        "homeTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "awayTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 2,
+        "date": "2049-04-12",
+        "time": "21:00"
+    },
+    {
+        "id": "6ac57b10-d039-400c-b29b-b12716cb8963",
+        "homeTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "awayTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 3,
+        "date": "2049-04-12",
+        "time": "21:00"
+    },
+    {
+        "id": "2b0e8761-cc1e-4144-b8d7-0fc006ddd9b8",
+        "homeTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "awayTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 1,
+        "date": "2049-04-12",
+        "time": "21:00"
+    },
+    {
+        "id": "66b68450-a369-47fb-87c1-e16eeac9eff3",
+        "homeTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "awayTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 3,
+        "date": "2049-04-12",
+        "time": "21:00"
+    },
+    {
+        "id": "fc052c75-a67f-4b70-a91a-1d719ea78d97",
+        "homeTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "awayTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 2,
+        "date": "2049-04-12",
+        "time": "21:00"
+    },
+    {
+        "id": "e3e67470-2f8c-4fd0-9290-adbaefe3f2f0",
+        "homeTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "awayTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 0,
+        "date": "2049-04-12",
+        "time": "21:00"
+    },
+    {
+        "id": "20c45c4c-a538-447f-9861-cdd499012bd5",
+        "homeTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "awayTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 4,
+        "date": "2049-04-12",
+        "time": "21:00"
+    },
+    {
+        "id": "ce5f1bca-b798-4c23-99f6-1c01215c6fc3",
+        "homeTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "awayTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 0,
+        "date": "2049-04-12",
+        "time": "21:00"
+    },
+    {
+        "id": "b424d1c6-d1d1-4962-9028-56fb6f28a5a3",
+        "homeTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "awayTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 2,
+        "date": "2049-04-12",
+        "time": "21:00"
+    },
+    {
+        "id": "138d85ed-ed68-4de5-ae3f-9f46b7c3d30c",
+        "homeTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "awayTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 5,
+        "date": "2049-04-12",
+        "time": "21:00"
+    },
+    {
+        "id": "4ab4156e-9ce1-425c-b8bf-3b8b74a74344",
+        "homeTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "awayTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 1,
+        "date": "2049-04-19",
+        "time": "21:00"
+    },
+    {
+        "id": "527324ec-bc2b-429c-abe7-6267c7ba35e2",
+        "homeTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "awayTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 4,
+        "date": "2049-04-19",
+        "time": "21:00"
+    },
+    {
+        "id": "a86c2468-8531-4307-84ea-e7e3c32c69d3",
+        "homeTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "awayTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 4,
+        "date": "2049-04-19",
+        "time": "21:00"
+    },
+    {
+        "id": "e4ae95c9-d8eb-4c9a-b018-9ada44f6975d",
+        "homeTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "awayTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 3,
+        "date": "2049-04-19",
+        "time": "21:00"
+    },
+    {
+        "id": "4c0ab8c0-1a70-400c-8e77-67b9356a3d17",
+        "homeTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "awayTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 5,
+        "date": "2049-04-19",
+        "time": "21:00"
+    },
+    {
+        "id": "fc8290a9-8a72-4158-baab-c9bd33d9a926",
+        "homeTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "awayTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 4,
+        "date": "2049-04-19",
+        "time": "21:00"
+    },
+    {
+        "id": "bb366c2b-c4a8-40e7-9e2b-faf68c085202",
+        "homeTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "awayTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 0,
+        "date": "2049-04-19",
+        "time": "21:00"
+    },
+    {
+        "id": "3d06876e-583b-4290-a7de-5820e12a862b",
+        "homeTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "awayTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 3,
+        "date": "2049-04-19",
+        "time": "21:00"
+    },
+    {
+        "id": "b2c532d7-db48-4285-962d-a8c657db798b",
+        "homeTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "awayTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 3,
+        "date": "2049-04-19",
+        "time": "21:00"
+    },
+    {
+        "id": "35cd3410-1b20-4f73-856d-a874f84ce3e7",
+        "homeTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "awayTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 2,
+        "date": "2049-04-19",
+        "time": "21:00"
+    },
+    {
+        "id": "49551e21-3902-485f-97b1-f4d918fbd379",
+        "homeTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "awayTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 3,
+        "date": "2049-04-26",
+        "time": "21:00"
+    },
+    {
+        "id": "0e29814b-53dc-4a30-a8c8-4358989c4045",
+        "homeTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "awayTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 5,
+        "date": "2049-04-26",
+        "time": "21:00"
+    },
+    {
+        "id": "c9f6ece3-6f6d-4d9e-b3d9-f30c0ceb52df",
+        "homeTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "awayTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 4,
+        "date": "2049-04-26",
+        "time": "21:00"
+    },
+    {
+        "id": "8fc9f7d4-bc2f-4b82-89a5-dfe37a7f7615",
+        "homeTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "awayTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 0,
+        "date": "2049-04-26",
+        "time": "21:00"
+    },
+    {
+        "id": "580d9dba-45de-4423-9813-14e0d5eead2e",
+        "homeTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "awayTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 3,
+        "date": "2049-04-26",
+        "time": "21:00"
+    },
+    {
+        "id": "c4ac91ab-d663-4610-b7c5-13d64add8ac0",
+        "homeTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "awayTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 1,
+        "date": "2049-04-26",
+        "time": "21:00"
+    },
+    {
+        "id": "47d6366d-d174-499f-a56a-30b56bbef8f0",
+        "homeTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "awayTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 0,
+        "date": "2049-04-26",
+        "time": "21:00"
+    },
+    {
+        "id": "6f760a56-9ee1-499a-826a-7370f8aea124",
+        "homeTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "awayTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 5,
+        "date": "2049-04-26",
+        "time": "21:00"
+    },
+    {
+        "id": "5ecb229c-f1b7-4b6e-9641-473aa315e352",
+        "homeTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "awayTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 5,
+        "date": "2049-04-26",
+        "time": "21:00"
+    },
+    {
+        "id": "72e3afd1-f8d0-4def-8718-2dc02777c5cb",
+        "homeTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "awayTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 5,
+        "date": "2049-04-26",
+        "time": "21:00"
+    },
+    {
+        "id": "321ccf45-c5dd-4525-b479-730692c8e7ce",
+        "homeTeam": {
+            "id": "97bf4985-d186-4dce-a3d3-e6881b28c4db",
+            "name": "Toulon"
+        },
+        "awayTeam": {
+            "id": "531f04d7-8dbd-492d-a333-06600e8bfaec",
+            "name": "Strasbourg"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 1,
+        "date": "2049-05-03",
+        "time": "21:00"
+    },
+    {
+        "id": "dc526377-41e9-4b83-9131-c1825f235cb0",
+        "homeTeam": {
+            "id": "014bde7e-11b0-4236-a003-4e981b502866",
+            "name": "N\u00eemes"
+        },
+        "awayTeam": {
+            "id": "86c86bd9-e745-4db0-88bd-3440d9a26241",
+            "name": "Bordeaux"
+        },
+        "homeTeamGoals": 3,
+        "awayTeamGoals": 4,
+        "date": "2049-05-03",
+        "time": "21:00"
+    },
+    {
+        "id": "54f797f9-a92a-439f-9f69-d5fbe17943ac",
+        "homeTeam": {
+            "id": "f4e1f6b4-ecf8-4c8e-97f8-7ca76659816a",
+            "name": "Le Havre"
+        },
+        "awayTeam": {
+            "id": "5834469c-f35c-432f-a6e2-0e3431441657",
+            "name": "Lille"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 3,
+        "date": "2049-05-03",
+        "time": "21:00"
+    },
+    {
+        "id": "2d50231c-22fc-4dcb-ace4-a65407a3a6bf",
+        "homeTeam": {
+            "id": "8c97e6b5-8840-4e46-850b-84ea20138757",
+            "name": "Dijon"
+        },
+        "awayTeam": {
+            "id": "2e449db4-edde-4a7b-a966-b8b789438f41",
+            "name": "Montpellier"
+        },
+        "homeTeamGoals": 5,
+        "awayTeamGoals": 5,
+        "date": "2049-05-03",
+        "time": "21:00"
+    },
+    {
+        "id": "2f4e0470-871d-4fc9-9ce8-f80753798794",
+        "homeTeam": {
+            "id": "090ec697-e8da-46f8-9659-f5c45f424adc",
+            "name": "Grenoble"
+        },
+        "awayTeam": {
+            "id": "58c92f8a-7e23-4061-bd81-d63df7a3f0c8",
+            "name": "Nantes"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 5,
+        "date": "2049-05-03",
+        "time": "21:00"
+    },
+    {
+        "id": "1591b1ba-7468-4b20-addb-5a79ac38b458",
+        "homeTeam": {
+            "id": "a8817440-ebef-46df-b2ec-831a538aa703",
+            "name": "Villeurbanne"
+        },
+        "awayTeam": {
+            "id": "1e64e48d-9a33-4d57-bb22-23cb1639fc4f",
+            "name": "Toulouse"
+        },
+        "homeTeamGoals": 1,
+        "awayTeamGoals": 3,
+        "date": "2049-05-03",
+        "time": "21:00"
+    },
+    {
+        "id": "79f87d8b-0d32-4ec1-85d1-92eb8c8bca5c",
+        "homeTeam": {
+            "id": "7d57f90f-8307-4829-8c7e-823f23b4ec7c",
+            "name": "Rennes"
+        },
+        "awayTeam": {
+            "id": "cb549772-d753-453c-baac-f27f2c870646",
+            "name": "Paris"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 5,
+        "date": "2049-05-03",
+        "time": "21:00"
+    },
+    {
+        "id": "20e53883-dc0d-4d35-ab8e-48e183f189f2",
+        "homeTeam": {
+            "id": "1c0707a1-242d-451d-b911-da984aed985e",
+            "name": "Angers"
+        },
+        "awayTeam": {
+            "id": "337ace68-a434-4a05-acaf-a8819475da64",
+            "name": "Nice"
+        },
+        "homeTeamGoals": 4,
+        "awayTeamGoals": 1,
+        "date": "2049-05-03",
+        "time": "21:00"
+    },
+    {
+        "id": "71fab8ce-4e11-4bc3-958e-4734faf7b7cc",
+        "homeTeam": {
+            "id": "ef4343df-5d85-4d56-adfd-538c6a297bec",
+            "name": "Reims"
+        },
+        "awayTeam": {
+            "id": "60802376-dc02-45e0-9ec1-ea4bc8ec1a80",
+            "name": "Marseille"
+        },
+        "homeTeamGoals": 2,
+        "awayTeamGoals": 4,
+        "date": "2049-05-03",
+        "time": "21:00"
+    },
+    {
+        "id": "5d87a326-4f4d-4283-96b1-8c321d52af8d",
+        "homeTeam": {
+            "id": "c6ffd420-eb74-4c5d-afd0-ca83bff54548",
+            "name": "Gap"
+        },
+        "awayTeam": {
+            "id": "b7da7a10-e406-4486-b99c-bf2de713d9e5",
+            "name": "Lyon"
+        },
+        "homeTeamGoals": 0,
+        "awayTeamGoals": 5,
+        "date": "2049-05-03",
+        "time": "21:00"
+    }
+]
