@@ -22,6 +22,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     implementation("org.springframework.boot:spring-boot-starter-validation")
     implementation("com.h2database:h2:2.2.224")
+    implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.18.2")
     //implementation("org.springframework.boot:spring-boot-starter-security")
     //implementation("org.thymeleaf.extras:thymeleaf-extras-springsecurity6")
     //implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.6.0")
