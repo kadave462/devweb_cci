@@ -21,7 +21,7 @@ import static org.hamcrest.Matchers.stringContainsInOrder;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-@WebMvcTest(SoccerController.class)  // Focuses only on the controller
+@WebMvcTest(SoccerController.class)
 public class SoccerControllerTest {
 
     @Autowired
@@ -32,7 +32,7 @@ public class SoccerControllerTest {
 
     @Test
     public void testRanking() throws Exception {
-        // Given
+
         UUID teamId0 = UUID.fromString("aabd33ba-2c89-43e7-903d-0cd15295128e");
         UUID teamId1 = UUID.fromString("aabd33ba-3c89-43e7-903d-2ce15295128e");
 
@@ -41,7 +41,6 @@ public class SoccerControllerTest {
                 new RankingRowDTO(new TeamDTO(teamId1, "Paris"), 5, 38, 19, 15, 4, 86, 80, 6, 61)
         );
 
-        // When the getRanking method is called, return the above rows
         when(dataSoccerService.getRanking()).thenReturn(rows);
 
         // When
@@ -53,7 +52,7 @@ public class SoccerControllerTest {
         // Then
         // Ensure that the HTML contains the expected content
         assertThat(html, stringContainsInOrder("N°", "Équipe", "MJ", "G", "N", "P", "BP", "BC", "DB", "Pts"));
-        assertThat(html, stringContainsInOrder("Marseille"));
-        assertThat(html, stringContainsInOrder("Paris"));
+        assertThat(html, stringContainsInOrder("3", "Marseille", "38", "22", "10", "6", "111", "92", "19", "72"));
+        assertThat(html, stringContainsInOrder("5", "Paris", "38", "19", "15", "4", "86", "80", "6", "61"));
     }
 }

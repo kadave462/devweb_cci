@@ -2,6 +2,7 @@ package com.project.controllers;
 
 import com.project.dto.RankingRowDTO;
 import com.project.services.DataSoccerService;
+import com.project.services.SoccerService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.ui.Model;
@@ -10,9 +11,9 @@ import java.util.List;
 
 @Controller
 public class SoccerController {
-    private final DataSoccerService soccerService;
+    private final SoccerService soccerService;
 
-    public SoccerController(DataSoccerService soccerService) {
+    public SoccerController(SoccerService soccerService) {
         this.soccerService = soccerService;
     }
 

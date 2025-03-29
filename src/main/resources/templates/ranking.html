@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org" lang="fr" th:fragment="base(title, content)">
 <head>
     <title>Classement</title>
@@ -25,19 +25,18 @@
         </tr>
         </thead>
         <tbody>
-        <tr th:each="ranking : ${ranking}">
-            <td th:text="${ranking.rank}"></td>
-            <td th:text="${ranking.team.name}"></td>
-            <td th:text="${ranking.matchPlayedCount}"></td>
-            <td th:text="${ranking.matchWonCount}"></td>
-            <td th:text="${ranking.drawCount}"></td>
-            <td th:text="${ranking.points}"></td>
-            <td th:text="${ranking.goalForCount}"></td>
-            <td th:text="${ranking.goalAgainstCount}"></td>
-            <td th:text="${ranking.goalDifference}"></td>
-            <td th:text="${ranking.points}"></td>
+        <tr th:each="row : ${ranking}">
+            <td th:text="${row.rank()}"></td>
+            <td th:text="${row.team().name()}"></td>
+            <td th:text="${row.matchPlayedCount()}"></td>
+            <td th:text="${row.matchWonCount()}"></td>
+            <td th:text="${row.drawCount()}"></td>
+            <td th:text="${row.matchLostCount()}"></td>
+            <td th:text="${row.goalForCount()}"></td>
+            <td th:text="${row.goalAgainstCount()}"></td>
+            <td th:text="${row.goalDifference()}"></td>
+            <td th:text="${row.points()}"></td>
         </tr>
-
         </tbody>
     </table>
 </div>
