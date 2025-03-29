@@ -54,6 +54,8 @@ public class JdbcSoccerService {
         System.out.println("fillDatabase");
         List<RankingRowDTO> ranking = dataSoccerService.getRanking();
 
+        jdbcTemplate.execute("DELETE FROM ranking");
+
         for (RankingRowDTO row : ranking) {
             insertRankingRow(row);
         }
