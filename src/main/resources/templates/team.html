@@ -11,6 +11,38 @@
 <div class="container">
     <h1>Team Details</h1>
     <p>Team ID: <span th:text="${teamId}"></span></p>
+
+    <h2>Ranking Information</h2>
+    <table class="table table-striped">
+        <thead class="table-dark">
+        <tr>
+            <th>N°</th>
+            <th>Équipe</th>
+            <th>MJ</th>
+            <th>G</th>
+            <th>N</th>
+            <th>P</th>
+            <th>BP</th>
+            <th>BC</th>
+            <th>DB</th>
+            <th>Pts</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td th:text="${row.rank()}"></td>
+            <td th:text="${row.team().name()}"></td>
+            <td th:text="${row.matchPlayedCount()}"></td>
+            <td th:text="${row.matchWonCount()}"></td>
+            <td th:text="${row.drawCount()}"></td>
+            <td th:text="${row.matchLostCount()}"></td>
+            <td th:text="${row.goalForCount()}"></td>
+            <td th:text="${row.goalAgainstCount()}"></td>
+            <td th:text="${row.goalDifference()}"></td>
+            <td th:text="${row.points()}"></td>
+        </tr>
+        </tbody>
+    </table>
 </div>
 </body>
 </html>

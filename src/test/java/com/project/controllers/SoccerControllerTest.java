@@ -16,6 +16,7 @@ import java.util.UUID;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.Mockito.*;
 import static org.mockito.Mockito.when;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.stringContainsInOrder;
@@ -57,17 +58,24 @@ public class SoccerControllerTest {
     }
 
 
-
-
     @Test
     public void testTeam() throws Exception {
+        // Given
+        UUID teamId = UUID.fromString("aabd33ba-2c89-43e7-903d-0cd15295128e");
+        RankingRowDTO rankingRow = new RankingRowDTO(
+                new TeamDTO(teamId, "Marseille"),
+                3, 38, 22, 10, 6, 111, 92, 19, 72);
+        when(dataSoccerService.getRankingRow(teamId)).thenReturn(rankingRow);
+
         // When
-        MvcResult result = mockMvc.perform(get("/team/aabd33ba-2c89-43e7-903d-0cd15295128e"))
+        MvcResult result = mockMvc.perform(get("/team/" + teamId))
                 .andExpect(status().isOk())
                 .andReturn();
         String html = result.getResponse().getContentAsString();
 
         // Then
-        assertThat(html, containsString("aabd33ba-2c89-43e7-903d-0cd15295128e"));
+        verify(dataSoccerService, times(1)).getRankingRow(teamId);
+        assertThat(html, stringContainsInOrder("N°", "Équipe", "MJ", "G", "N", "P", "BP", "BC", "DB", "Pts"));
+        assertThat(html, stringContainsInOrder("3", "Marseille", "38", "22", "10", "6", "111", "92", "19", "72"));
     }
 }

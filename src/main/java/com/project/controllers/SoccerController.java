@@ -29,9 +29,10 @@ public class SoccerController {
 
     @GetMapping("/team/{teamId}")
     public String team(@PathVariable UUID teamId, Model model) {
+        RankingRowDTO row = soccerService.getRankingRow(teamId);
         model.addAttribute("teamId", teamId);
+        model.addAttribute("row", row);
         return "team";
     }
-
 }
 
