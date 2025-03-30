@@ -1,0 +1,31 @@
+the next step from your instructions, they're asking you to:
+
+Modify the testRanking method in SoccerControllerTest to verify that team names in the ranking page are displayed as links to their respective team pages.
+Update the ranking.html template to make team names clickable links to their team pages.
+
+Specifically, you need to:
+
+Update the assertions in testRanking to expect HTML links instead of plain text team names.
+
+Change from looking for plain text "Marseille" to looking for <a href="/team/[teamId0]">Marseille</a>
+Change from looking for plain text "Paris" to looking for <a href="/team/[teamId1]">Paris</a>
+
+
+Run the test and verify it fails (because the current template doesn't have these links).
+Modify the ranking.html template to change how team names are displayed:
+
+Replace the current team name column (likely using th:text="${row.team().name()}")
+With a link using: <a th:href="@{'/team/' + ${row.team().id()}}" th:text="${row.team().name()}"></a>
+
+
+Run the test again to verify it now passes.
+Run the application and manually verify that:
+
+Team names appear as clickable links in the ranking table
+Clicking these links takes you to the correct team page
+
+
+Commit and push your changes to the repository.
+
+This step is about enhancing the user experience by making the ranking table interactive,
+allowing users to click on team names to see their detailed information.
