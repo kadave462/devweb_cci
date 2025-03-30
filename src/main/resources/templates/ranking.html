@@ -27,8 +27,7 @@
         <tbody>
         <tr th:each="row : ${ranking}">
             <td th:text="${row.rank()}"></td>
-            <td th:text="${row.team().name()}"></td>
-            <td th:text="${row.matchPlayedCount()}"></td>
+            <td><a th:href="@{'/team/' + ${row.team().id()}}" th:text="${row.team().name()}"></a></td>            <td th:text="${row.matchPlayedCount()}"></td>
             <td th:text="${row.matchWonCount()}"></td>
             <td th:text="${row.drawCount()}"></td>
             <td th:text="${row.matchLostCount()}"></td>

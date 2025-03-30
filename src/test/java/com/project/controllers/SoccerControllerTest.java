@@ -14,6 +14,7 @@ import org.springframework.test.web.servlet.MvcResult;
 import java.util.List;
 import java.util.UUID;
 
+import static org.hamcrest.Matchers.containsString;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -32,7 +33,6 @@ public class SoccerControllerTest {
 
     @Test
     public void testRanking() throws Exception {
-
         UUID teamId0 = UUID.fromString("aabd33ba-2c89-43e7-903d-0cd15295128e");
         UUID teamId1 = UUID.fromString("aabd33ba-3c89-43e7-903d-2ce15295128e");
 
@@ -52,7 +52,22 @@ public class SoccerControllerTest {
         // Then
         // Ensure that the HTML contains the expected content
         assertThat(html, stringContainsInOrder("N°", "Équipe", "MJ", "G", "N", "P", "BP", "BC", "DB", "Pts"));
-        assertThat(html, stringContainsInOrder("3", "Marseille", "38", "22", "10", "6", "111", "92", "19", "72"));
-        assertThat(html, stringContainsInOrder("5", "Paris", "38", "19", "15", "4", "86", "80", "6", "61"));
+        assertThat(html, stringContainsInOrder("3", "<a href=\"/team/"+teamId0+"\">Marseille</a>", "38", "22", "10", "6", "111", "92", "19", "72"));
+        assertThat(html, stringContainsInOrder("5", "<a href=\"/team/"+teamId1+"\">Paris</a>", "38", "19", "15", "4", "86", "80", "6", "61"));
+    }
+
+
+
+
+    @Test
+    public void testTeam() throws Exception {
+        // When
+        MvcResult result = mockMvc.perform(get("/team/aabd33ba-2c89-43e7-903d-0cd15295128e"))
+                .andExpect(status().isOk())
+                .andReturn();
+        String html = result.getResponse().getContentAsString();
+
+        // Then
+        assertThat(html, containsString("aabd33ba-2c89-43e7-903d-0cd15295128e"));
     }
 }
