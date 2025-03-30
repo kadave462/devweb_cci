@@ -13,7 +13,7 @@ spring:
       enabled: true
       settings:
         web-allow-others: true
-
   sql:
     init:
       mode: always
+

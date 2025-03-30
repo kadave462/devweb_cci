@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.project.dto.RankingRowDTO;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ResourceUtils;
 
@@ -14,6 +15,8 @@ import java.util.List;
 
 
 @Service
+@Primary
+
 public class DataSoccerService implements SoccerService {
     private final ObjectMapper objectMapper;
 
