@@ -15,7 +15,7 @@ import java.util.List;
 
 
 @Service
-@Primary
+
 
 public class DataSoccerService implements SoccerService {
     private final ObjectMapper objectMapper;

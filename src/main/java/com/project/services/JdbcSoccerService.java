@@ -2,6 +2,7 @@ package com.project.services;
 
 import com.project.dto.RankingRowDTO;
 import com.project.dto.TeamDTO;
+import org.springframework.context.annotation.Primary;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.context.event.EventListener;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -15,6 +16,7 @@ import java.util.UUID;
 import java.util.Optional;
 
 @Service
+@Primary
 public class JdbcSoccerService implements SoccerService {
     private final DataSoccerService dataSoccerService;
     private final JdbcTemplate jdbcTemplate;
@@ -48,6 +50,8 @@ public class JdbcSoccerService implements SoccerService {
     }
 
     public void fillDatabase() {
+        if (!getRanking().isEmpty()) return;
+
         System.out.println("fillDatabase");
         List<RankingRowDTO> ranking = dataSoccerService.getRanking();
 
@@ -61,33 +65,20 @@ public class JdbcSoccerService implements SoccerService {
     @Override
     public List<RankingRowDTO> getRanking() {
         String sql = "SELECT * FROM ranking ORDER BY rank";
-        return jdbcTemplate.query(sql, rankingRowMapper());
-    }
-
-    public Optional<RankingRowDTO> getTeamRanking(UUID teamId) {
-        String sql = "SELECT * FROM ranking WHERE team_id = ?";
-        List<RankingRowDTO> results = jdbcTemplate.query(sql, rankingRowMapper(), teamId);
-        return results.isEmpty() ? Optional.empty() : Optional.of(results.get(0));
-    }
-
-    private RowMapper<RankingRowDTO> rankingRowMapper() {
-        return (rs, rowNum) -> {
-            UUID teamId = UUID.fromString(rs.getString("team_id"));
-            String teamName = rs.getString("team_name");
-            TeamDTO team = new TeamDTO(teamId, teamName);
-
+        return jdbcTemplate.query(sql, (row, rowNum) -> {
             return new RankingRowDTO(
-                    team,
-                    rs.getInt("rank"),
-                    rs.getInt("match_played_count"),
-                    rs.getInt("match_won_count"),
-                    rs.getInt("match_lost_count"),
-                    rs.getInt("draw_count"),
-                    rs.getInt("goal_for_count"),
-                    rs.getInt("goal_against_count"),
-                    rs.getInt("goal_difference"),
-                    rs.getInt("points")
+                    new TeamDTO(UUID.fromString(row.getString("team_id")), row.getString("team_name")),
+                    row.getInt("rank"),
+                    row.getInt("match_played_count"),
+                    row.getInt("match_won_count"),
+                    row.getInt("match_lost_count"),
+                    row.getInt("draw_count"),
+                    row.getInt("goal_for_count"),
+                    row.getInt("goal_against_count"),
+                    row.getInt("goal_difference"),
+                    row.getInt("points")
             );
-        };
+        });
     }
+
 }
