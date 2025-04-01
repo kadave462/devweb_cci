@@ -1,5 +1,6 @@
 package com.project.controllers;
 
+import com.project.dto.MatchDTO;
 import com.project.dto.RankingRowDTO;
 import com.project.services.DataSoccerService;
 import com.project.services.SoccerService;
@@ -30,8 +31,12 @@ public class SoccerController {
     @GetMapping("/team/{teamId}")
     public String team(@PathVariable UUID teamId, Model model) {
         RankingRowDTO row = soccerService.getRankingRow(teamId);
+        List<MatchDTO> matches = soccerService.getMatches(teamId);
+
         model.addAttribute("teamId", teamId);
         model.addAttribute("row", row);
+        model.addAttribute("matches", matches);
+
         return "team";
     }
 }

@@ -1,14 +1,7 @@
 <!DOCTYPE HTML>
-<html xmlns:th="http://www.thymeleaf.org" lang="fr" th:fragment="base(title, content)">
-<head>
-    <title>Classement</title>
-    <link href="/bootstrap.min.css"
-          rel="stylesheet"
-          integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-          crossorigin="anonymous">
-</head>
-<body>
-<div class="container">
+<html lang="fr" xmlns:th="http://www.thymeleaf.org" th:replace="~{base :: base(~{::#title}, ~{::#content})}">
+<th:block id="title">Classement</th:block>
+<th:block id="content">
     <table class="table table-striped">
         <thead class="table-dark">
         <tr>
@@ -27,7 +20,8 @@
         <tbody>
         <tr th:each="row : ${ranking}">
             <td th:text="${row.rank()}"></td>
-            <td><a th:href="@{'/team/' + ${row.team().id()}}" th:text="${row.team().name()}"></a></td>            <td th:text="${row.matchPlayedCount()}"></td>
+            <td><a th:href="@{'/team/' + ${row.team().id()}}" th:text="${row.team().name()}"></a></td>
+            <td th:text="${row.matchPlayedCount()}"></td>
             <td th:text="${row.matchWonCount()}"></td>
             <td th:text="${row.drawCount()}"></td>
             <td th:text="${row.matchLostCount()}"></td>
@@ -38,6 +32,5 @@
         </tr>
         </tbody>
     </table>
-</div>
-</body>
+</th:block>
 </html>
