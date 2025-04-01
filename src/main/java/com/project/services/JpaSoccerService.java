@@ -87,9 +87,6 @@ public class JpaSoccerService implements SoccerService {
                 .toList();
     }
 
-    private static TeamDTO toDTO(Team team) {
-        return new TeamDTO(team.id, team.name);
-    }
 
     @Override
     public List<RankingRowDTO> getRanking() {
@@ -101,6 +98,14 @@ public class JpaSoccerService implements SoccerService {
         // This method will retrieve the ranking data for a specific team
         return null;
     }
+
+    //private methods..
+
+
+    private static TeamDTO toDTO(Team team) {
+        return new TeamDTO(team.id, team.name);
+    }
+
 
     private static MatchDTO toDTO(Match match) {
         return new MatchDTO(
