@@ -16,7 +16,7 @@ import java.util.UUID;
 import java.util.Optional;
 
 @Service
-@Primary
+
 public class JdbcSoccerService implements SoccerService {
     private final DataSoccerService dataSoccerService;
     private final JdbcTemplate jdbcTemplate;
