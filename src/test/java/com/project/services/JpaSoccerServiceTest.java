@@ -1,5 +1,6 @@
 package com.project.services;
 
+import com.project.dto.MatchDTO;
 import com.project.dto.TeamDTO;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,9 +9,11 @@ import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.ActiveProfiles;
 
 import java.util.List;
+import java.util.UUID;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.containsInAnyOrder;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SpringBootTest
 @ActiveProfiles("test")
@@ -33,5 +36,20 @@ public class JpaSoccerServiceTest {
         // Then
         assertThat(teams, containsInAnyOrder(expectedTeams.toArray()));
     }
+
+    @Test
+    void testGetMatches() {
+        // Given
+        List<TeamDTO> teams = dataSoccerService.getTeams();
+        UUID teamId = teams.get(4).id();
+        List<MatchDTO> expectedMatches = dataSoccerService.getMatches(teamId);
+        // When
+        List<MatchDTO> matches = jpaSoccerService.getMatches(teamId);
+        // Then
+        assertEquals(expectedMatches, matches);
+    }
+
+
+
 
 }

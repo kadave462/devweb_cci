@@ -99,7 +99,7 @@ public class JpaSoccerService implements SoccerService {
         return null;
     }
 
-    //private methods..
+    //private methods
 
 
     private static TeamDTO toDTO(Team team) {
