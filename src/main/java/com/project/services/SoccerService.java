@@ -34,5 +34,9 @@ public interface SoccerService {
         );
     }
 
+    default List<TeamDTO> getTeams() {
+        return List.of();
+    }
+
 
 }

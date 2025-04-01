@@ -1,3 +1,8 @@
+CREATE TABLE IF NOT EXISTS teams (
+    id UUID PRIMARY KEY,
+    name VARCHAR(255) NOT NULL
+);
+
 CREATE TABLE IF NOT EXISTS ranking (
     team_id UUID PRIMARY KEY,
     team_name VARCHAR(255) NOT NULL,

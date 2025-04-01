@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.project.dto.MatchDTO;
 import com.project.dto.RankingRowDTO;
+import com.project.dto.TeamDTO;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ResourceUtils;
@@ -62,5 +63,10 @@ public class DataSoccerService implements SoccerService {
                 .stream()
                 .filter(m -> m.homeTeam().id().equals(teamId) || m.awayTeam().id().equals(teamId))
                 .toList();
+    }
+
+    @Override
+    public List<TeamDTO> getTeams() {
+        return getList("teams.json", TeamDTO.class);
     }
 }
