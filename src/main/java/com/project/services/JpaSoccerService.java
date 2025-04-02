@@ -12,6 +12,8 @@ import com.project.repositories.TeamRepository;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Isolation;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.UUID;
@@ -40,6 +42,7 @@ public class JpaSoccerService implements SoccerService {
         fillDatabase();
     }
 
+    @Transactional(isolation = Isolation.SERIALIZABLE)
     public void fillDatabase() {
         if (!getRanking().isEmpty()) { return; }
         for (TeamDTO team : dataSoccerService.getTeams()) addTeam(team);
@@ -53,6 +56,7 @@ public class JpaSoccerService implements SoccerService {
         }
     }
 
+    @Transactional(isolation = Isolation.SERIALIZABLE)
     public void addMatch(com.project.dtos.MatchCreationDTO match) {
         Team homeTeam = teamRepository.findById(match.homeTeamId()).orElseThrow();
         Team awayTeam = teamRepository.findById(match.awayTeamId()).orElseThrow();
@@ -72,6 +76,7 @@ public class JpaSoccerService implements SoccerService {
     }
 
 
+    @Transactional(isolation = Isolation.SERIALIZABLE)
     public void addTeam(TeamDTO team) {
         Team entity = new Team(team.id(), team.name());
         teamRepository.save(entity);
