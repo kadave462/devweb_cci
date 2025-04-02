@@ -4,8 +4,10 @@ import com.project.dto.MatchDTO;
 import com.project.dto.RankingRowDTO;
 import com.project.dto.TeamDTO;
 import com.project.entities.Match;
+import com.project.entities.RankingRow;
 import com.project.entities.Team;
 import com.project.repositories.MatchRepository;
+import com.project.repositories.RankingRepository;
 import com.project.repositories.TeamRepository;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.context.event.EventListener;
@@ -19,15 +21,17 @@ public class JpaSoccerService implements SoccerService {
     private final DataSoccerService dataSoccerService;
     private final TeamRepository teamRepository;
     private final MatchRepository matchRepository;
+    private final RankingRepository rankingRepository;
 
     public JpaSoccerService(DataSoccerService dataSoccerService,
                             TeamRepository teamRepository,
-                            MatchRepository matchRepository) {
+                            MatchRepository matchRepository,
+                            RankingRepository rankingRepository) {
         this.dataSoccerService = dataSoccerService;
         this.teamRepository = teamRepository;
         this.matchRepository = matchRepository;
+        this.rankingRepository = rankingRepository;
     }
-
 
 
 
@@ -63,12 +67,15 @@ public class JpaSoccerService implements SoccerService {
                 match.time()
         );
         matchRepository.save(entity);
+        updateRankingRow(match.homeTeamId(), match.homeTeamGoals(), match.awayTeamGoals());
+        updateRankingRow(match.awayTeamId(), match.awayTeamGoals(), match.homeTeamGoals());
     }
 
 
     public void addTeam(TeamDTO team) {
         Team entity = new Team(team.id(), team.name());
         teamRepository.save(entity);
+        addEmptyRankingRow(entity);
     }
 
     @Override
@@ -90,7 +97,10 @@ public class JpaSoccerService implements SoccerService {
 
     @Override
     public List<RankingRowDTO> getRanking() {
-        return List.of();
+        return rankingRepository.findAllByOrderByRankAsc()
+                .stream()
+                .map(JpaSoccerService::toDTO)
+                .toList();
     }
 
     @Override
@@ -98,6 +108,9 @@ public class JpaSoccerService implements SoccerService {
         // This method will retrieve the ranking data for a specific team
         return null;
     }
+
+
+
 
     //private methods
 
@@ -118,5 +131,53 @@ public class JpaSoccerService implements SoccerService {
                 match.time
         );
     }
+
+    private void addEmptyRankingRow(Team team) {
+        RankingRow entity = new RankingRow(team, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+        rankingRepository.save(entity);
+    }
+
+    private void updateRankingRow(UUID teamId, int goalsForCount, int goalsAgainstCount) {
+        RankingRow entity = rankingRepository.findById(teamId).orElseThrow();
+        boolean win = goalsForCount > goalsAgainstCount;
+        boolean draw = goalsForCount == goalsAgainstCount;
+        boolean loss = goalsForCount < goalsAgainstCount;
+        entity.matchPlayedCount++;
+        entity.matchWonCount += win ? 1 : 0;
+        entity.drawCount += draw ? 1 : 0;
+        entity.matchLostCount += loss ? 1 : 0;
+        entity.goalForCount += goalsForCount;
+        entity.goalAgainstCount += goalsAgainstCount;
+        entity.goalDifference += goalsForCount - goalsAgainstCount;
+        entity.points += win ? 3 : draw ? 1 : 0;
+        rankingRepository.save(entity);
+    }
+
+    private void updateRanks() {
+        int rank = 1;
+        for (RankingRow row : rankingRepository.findAllByOrderByPointsDescGoalDifferenceDescGoalForCountDesc()) {
+            row.rank = rank;
+            rankingRepository.save(row);
+            rank++;
+        }
+    }
+
+    private static RankingRowDTO toDTO(RankingRow rankingRow) {
+        return new RankingRowDTO(
+                toDTO(rankingRow.team),
+                rankingRow.rank,
+                rankingRow.matchPlayedCount,
+                rankingRow.matchWonCount,
+                rankingRow.matchLostCount,
+                rankingRow.drawCount,
+                rankingRow.goalForCount,
+                rankingRow.goalAgainstCount,
+                rankingRow.goalDifference,
+                rankingRow.points
+        );
+    }
+
+
+
 
 }

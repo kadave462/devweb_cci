@@ -18,10 +18,8 @@ CREATE TABLE IF NOT EXISTS matches (
     UNIQUE (home_team_id, away_team_id)
 );
 
-
 CREATE TABLE IF NOT EXISTS ranking (
     team_id UUID PRIMARY KEY,
-    team_name VARCHAR(255) NOT NULL,
     rank INTEGER NOT NULL,
     match_played_count INTEGER NOT NULL,
     match_won_count INTEGER NOT NULL,
@@ -30,5 +28,6 @@ CREATE TABLE IF NOT EXISTS ranking (
     goal_for_count INTEGER NOT NULL,
     goal_against_count INTEGER NOT NULL,
     goal_difference INTEGER NOT NULL,
-    points INTEGER NOT NULL
+    points INTEGER NOT NULL,
+    FOREIGN KEY (team_id) REFERENCES teams(id)
 );

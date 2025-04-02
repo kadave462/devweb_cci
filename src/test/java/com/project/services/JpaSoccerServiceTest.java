@@ -1,6 +1,7 @@
 package com.project.services;
 
 import com.project.dto.MatchDTO;
+import com.project.dto.RankingRowDTO;
 import com.project.dto.TeamDTO;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -47,6 +48,28 @@ public class JpaSoccerServiceTest {
         List<MatchDTO> matches = jpaSoccerService.getMatches(teamId);
         // Then
         assertEquals(expectedMatches, matches);
+    }
+
+    @Test
+    void testGetRanking() {
+        // Given
+        List<RankingRowDTO> expectedRanking = dataSoccerService.getRanking();
+        // When
+        List<RankingRowDTO> ranking = jpaSoccerService.getRanking();
+        // Then
+        assertEquals(expectedRanking, ranking);
+    }
+
+    @Test
+    void testGetRankingRow() {
+        // Given
+        List<TeamDTO> teams = dataSoccerService.getTeams();
+        UUID teamId = teams.get(4).id();
+        RankingRowDTO expectedRankingRow = dataSoccerService.getRankingRow(teamId);
+        // When
+        RankingRowDTO rankingRow = jpaSoccerService.getRankingRow(teamId);
+        // Then
+        assertEquals(expectedRankingRow, rankingRow);
     }
 
 
