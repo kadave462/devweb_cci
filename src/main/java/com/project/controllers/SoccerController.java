@@ -2,12 +2,18 @@ package com.project.controllers;
 
 import com.project.dto.MatchDTO;
 import com.project.dto.RankingRowDTO;
+import com.project.dto.TeamDTO;
+import com.project.dto.TeamFormDTO;
 import com.project.services.DataSoccerService;
 import com.project.services.SoccerService;
+import jakarta.validation.Valid;
 import org.springframework.stereotype.Controller;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.List;
 import java.util.UUID;
@@ -38,6 +44,32 @@ public class SoccerController {
         model.addAttribute("matches", matches);
 
         return "team";
+    }
+
+    @GetMapping("/admin/team/add")
+    public String showAddTeamForm(Model model) {
+        model.addAttribute("teamForm", new TeamFormDTO());
+        return "add-team";
+    }
+
+    @PostMapping("/admin/team/add")
+    public String addTeam(@Valid @ModelAttribute("teamForm") TeamFormDTO teamForm,
+                          BindingResult result) {
+        if (result.hasErrors()) {
+            return "add-team";
+        }
+
+        // Generate a new UUID for the team
+        UUID teamId = UUID.randomUUID();
+
+        // Create a TeamDTO from the form data
+        TeamDTO newTeam = new TeamDTO(teamId, teamForm.getName());
+
+        // Add the team to the database
+        soccerService.addTeam(newTeam);
+
+        // Redirect to the ranking page
+        return "redirect:/";
     }
 }
 

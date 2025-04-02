@@ -38,5 +38,8 @@ public interface SoccerService {
         return List.of();
     }
 
+    default void addTeam(TeamDTO team){
+    };
+
 
 }

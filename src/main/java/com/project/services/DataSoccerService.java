@@ -69,4 +69,5 @@ public class DataSoccerService implements SoccerService {
     public List<TeamDTO> getTeams() {
         return getList("teams.json", TeamDTO.class);
     }
+
 }
