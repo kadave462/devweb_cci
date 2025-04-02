@@ -1,16 +1,13 @@
-Vous allez implémenter la persistance des matchs et des équipes, puis le calcul automatique du classement.
+Vous allez implémenter des formulaires pour ajouter des équipes et des matchs.
 
 Les étapes que vous allez devoir réaliser sont les suivantes :
 
-Création d'un nouveau service pour interagir avec la base de données ;
-Restructuration de la base de données pour stocker les équipes, les matchs et le classement ;
-Utilisation de l'ORM de Spring Boot pour interagir avec la base de données ;
-Mise en place de la mise à jour du classement après l'ajout d'une équipe ou d'un match ;
-Alimentation de la base de données à partir des données statiques.
+Ajouter des routes pour générer les formulaires d'ajout d'équipes et de matchs ;
+Valider les données des formulaires en ajoutant des contraintes de validation ;
+Afficher les erreurs de validation dans les formulaires ;
+Ajouter des listes déroulantes pour sélectionner les équipes dans le formulaire d'ajout d'un match ;
+Utiliser le service pour ajouter les équipes et les matchs dans la base de données.
 Vous allez devoir utiliser les concepts et technologies suivantes vus en cours :
 
-Définir des entités avec Spring Data JPA ;
-Définir des repositories avec Spring Data JPA ;
-Ajouter des méthodes personnalisées aux repositories ;
-Utilisation de Spring Data JPA pour effectuer des requêtes sur une base de données ;
-Visualisation des requêtes SQL générées par Spring Data JPA et optimisation des requêtes.
+Utilisation de Thymeleaf pour générer des formulaires et afficher les erreurs de validation ;
+Utilisation des annotations pour valider les données des formulaires.
