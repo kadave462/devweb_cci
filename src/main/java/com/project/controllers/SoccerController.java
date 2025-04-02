@@ -52,24 +52,6 @@ public class SoccerController {
         return "add-team";
     }
 
-    @PostMapping("/admin/team/add")
-    public String addTeam(@Valid @ModelAttribute("teamForm") TeamFormDTO teamForm,
-                          BindingResult result) {
-        if (result.hasErrors()) {
-            return "add-team";
-        }
 
-        // Generate a new UUID for the team
-        UUID teamId = UUID.randomUUID();
-
-        // Create a TeamDTO from the form data
-        TeamDTO newTeam = new TeamDTO(teamId, teamForm.getName());
-
-        // Add the team to the database
-        soccerService.addTeam(newTeam);
-
-        // Redirect to the ranking page
-        return "redirect:/";
-    }
 }
 

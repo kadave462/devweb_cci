@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="fr" xmlns:th="http://www.thymeleaf.org" th:replace="~{base :: base(~{::#title}, ~{::#content})}">
+<th:block id="title">Ajouter une équipe</th:block>
+<th:block id="content">
+    <h2>Ajouter une nouvelle équipe</h2>
+
+    <form th:action="@{/admin/team/add}" th:object="${teamForm}" method="post">
+        <div class="mb-3">
+            <label for="name" class="form-label">Nom de l'équipe</label>
+            <input type="text" id="name" th:field="*{name}" placeholder="Nom de l'équipe"
+                   class="form-control" th:classappend="${#fields.hasErrors('name')} ? 'is-invalid' : ''">
+            <div class="invalid-feedback" th:if="${#fields.hasErrors('name')}" th:errors="*{name}">
+                Le nom de l'équipe est obligatoire.
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Ajouter l'équipe</button>
+    </form>
+
+    <!-- Add a link back to the ranking page -->
+    <div class="mt-3">
+        <a th:href="@{/}" class="btn btn-secondary">Retour au classement</a>
+    </div>
+</th:block>
+</html>
