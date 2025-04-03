@@ -24,7 +24,8 @@ import static org.mockito.Mockito.when;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.stringContainsInOrder;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 @WebMvcTest(SoccerController.class)
 public class SoccerControllerTest {
@@ -111,5 +112,53 @@ public class SoccerControllerTest {
         assertThat(html, containsString("Marseille"));
         assertThat(html, containsString("Le Havre"));
     }
+
+    @Test
+    void testShowAddTeamForm() throws Exception {
+        mockMvc.perform(get("/admin/team/add"))
+                .andExpect(status().isOk())
+                .andExpect(view().name("add-team"))
+                .andExpect(model().attributeExists("teamDTO"));
+    }
+
+    @Test
+    void testAddTeam() throws Exception {
+        TeamDTO teamDTO = new TeamDTO(null, "AAA");
+        mockMvc.perform(post("/admin/team/add")
+                        .param("name", teamDTO.name()))
+                .andExpect(status().is3xxRedirection())
+                .andExpect(redirectedUrl("/"));
+        verify(service, times(1)).addTeam(teamDTO);
+    }
+
+    @Test
+    void testAddTeamWithInvalidData() throws Exception {
+        TeamDTO teamDTO = new TeamDTO(null, "A");
+        mockMvc.perform(post("/admin/team/add")
+                        .param("name", "A"))
+                .andExpect(status().isOk())
+                .andExpect(view().name("add-team"))
+                .andExpect(model().attributeExists("teamDTO"))
+                .andExpect(model().attributeHasFieldErrors("teamDTO", "name"))
+                .andExpect(model().attribute("teamDTO", teamDTO));
+        verify(service, times(0)).addTeam(any());
+    }
+
+    @Test
+    void testAddTeamWithException() throws Exception {
+        TeamDTO teamDTO = new TeamDTO(null, "AAA");
+        doThrow(new RuntimeException()).when(service).addTeam(teamDTO);
+        mockMvc.perform(post("/admin/team/add")
+                        .param("name", teamDTO.name()))
+                .andExpect(status().isOk())
+                .andExpect(view().name("add-team"))
+                .andExpect(model().attributeExists("teamDTO"))
+                .andExpect(model().attributeHasErrors("teamDTO"))
+                .andExpect(model().attribute("teamDTO", teamDTO));
+        verify(service, times(1)).addTeam(teamDTO);
+    }
+
+
+
 }
 

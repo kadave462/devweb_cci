@@ -76,11 +76,14 @@ public class JpaSoccerService implements SoccerService {
     }
 
 
-    @Transactional(isolation = Isolation.SERIALIZABLE)
+    @Override
+    @Transactional
     public void addTeam(TeamDTO team) {
-        Team entity = new Team(team.id(), team.name());
+        UUID teamId = team.id() == null ? UUID.randomUUID() : team.id();
+        Team entity = new Team(teamId, team.name());
         teamRepository.save(entity);
         addEmptyRankingRow(entity);
+        updateRanks();
     }
 
     @Override
