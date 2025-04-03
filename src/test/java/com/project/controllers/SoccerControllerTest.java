@@ -1,5 +1,6 @@
 package com.project.controllers;
 
+import com.project.dto.MatchCreationDTO;
 import com.project.dto.MatchDTO;
 import com.project.dto.TeamDTO;
 import com.project.dto.RankingRowDTO;
@@ -35,6 +36,9 @@ public class SoccerControllerTest {
 
     @MockBean
     private DataSoccerService dataSoccerService;
+
+    @MockBean
+    private SoccerService soccerService;
 
     @Test
     public void testRanking() throws Exception {
@@ -128,7 +132,7 @@ public class SoccerControllerTest {
                         .param("name", teamDTO.name()))
                 .andExpect(status().is3xxRedirection())
                 .andExpect(redirectedUrl("/"));
-        verify(service, times(1)).addTeam(teamDTO);
+        verify(soccerService, times(1)).addTeam(teamDTO);
     }
 
     @Test
@@ -141,13 +145,13 @@ public class SoccerControllerTest {
                 .andExpect(model().attributeExists("teamDTO"))
                 .andExpect(model().attributeHasFieldErrors("teamDTO", "name"))
                 .andExpect(model().attribute("teamDTO", teamDTO));
-        verify(service, times(0)).addTeam(any());
+        verify(soccerService, times(0)).addTeam(any());
     }
 
     @Test
     void testAddTeamWithException() throws Exception {
         TeamDTO teamDTO = new TeamDTO(null, "AAA");
-        doThrow(new RuntimeException()).when(service).addTeam(teamDTO);
+        doThrow(new RuntimeException()).when(soccerService).addTeam(teamDTO);
         mockMvc.perform(post("/admin/team/add")
                         .param("name", teamDTO.name()))
                 .andExpect(status().isOk())
@@ -155,7 +159,84 @@ public class SoccerControllerTest {
                 .andExpect(model().attributeExists("teamDTO"))
                 .andExpect(model().attributeHasErrors("teamDTO"))
                 .andExpect(model().attribute("teamDTO", teamDTO));
-        verify(service, times(1)).addTeam(teamDTO);
+        verify(soccerService, times(1)).addTeam(teamDTO);
+    }
+
+    @Test
+    void testShowAddMatchForm() throws Exception {
+        List<TeamDTO> teams = List.of(new TeamDTO(UUID.randomUUID(), "Marseille"));
+        when(soccerService.getTeams()).thenReturn(teams);
+        mockMvc.perform(get("/admin/match/add"))
+                .andExpect(status().isOk())
+                .andExpect(view().name("add-match"))
+                .andExpect(model().attributeExists("matchCreationDTO"))
+                .andExpect(model().attributeExists("teams"))
+                .andExpect(model().attribute("teams", teams));
+        verify(soccerService, times(1)).getTeams();
+    }
+
+    @Test
+    void testAddMatch() throws Exception {
+        TeamDTO team1 = new TeamDTO(UUID.randomUUID(), "AAA");
+        TeamDTO team2 = new TeamDTO(UUID.randomUUID(), "BBB");
+        MatchCreationDTO matchCreationDTO = new MatchCreationDTO(null,
+                team1.id(), team2.id(),
+                0, 0, LocalDate.now(), LocalTime.now());
+        mockMvc.perform(post("/admin/match/add")
+                        .param("homeTeamId", matchCreationDTO.homeTeamId().toString())
+                        .param("awayTeamId", matchCreationDTO.awayTeamId().toString())
+                        .param("homeTeamGoals", matchCreationDTO.homeTeamGoals().toString())
+                        .param("awayTeamGoals", matchCreationDTO.awayTeamGoals().toString())
+                        .param("date", matchCreationDTO.date().toString())
+                        .param("time", matchCreationDTO.time().toString()))
+                .andExpect(status().is3xxRedirection())
+                .andExpect(redirectedUrl("/"));
+        verify(soccerService, times(1)).addMatch(matchCreationDTO);
+    }
+
+    @Test
+    void testAddMatchWithInvalidData() throws Exception {
+        TeamDTO team1 = new TeamDTO(UUID.randomUUID(), "AAA");
+        TeamDTO team2 = new TeamDTO(UUID.randomUUID(), "BBB");
+        MatchCreationDTO matchCreationDTO = new MatchCreationDTO(
+                null, team1.id(), team2.id(),
+                0, 70, LocalDate.now(), LocalTime.now());
+        doThrow(new RuntimeException()).when(soccerService).addMatch(matchCreationDTO);
+        mockMvc.perform(post("/admin/match/add")
+                        .param("homeTeamId", matchCreationDTO.homeTeamId().toString())
+                        .param("awayTeamId", matchCreationDTO.awayTeamId().toString())
+                        .param("homeTeamGoals", matchCreationDTO.homeTeamGoals().toString())
+                        .param("awayTeamGoals", matchCreationDTO.awayTeamGoals().toString())
+                        .param("date", matchCreationDTO.date().toString())
+                        .param("time", matchCreationDTO.time().toString()))
+                .andExpect(status().isOk())
+                .andExpect(view().name("add-match"))
+                .andExpect(model().attributeExists("matchCreationDTO"))
+                .andExpect(model().attributeHasErrors("matchCreationDTO"))
+                .andExpect(model().attribute("matchCreationDTO", matchCreationDTO));
+        verify(soccerService, times(0)).addMatch(matchCreationDTO);
+    }
+
+    @Test
+    void testAddMatchWithException() throws Exception {
+        TeamDTO team1 = new TeamDTO(UUID.randomUUID(), "AAA");
+        TeamDTO team2 = new TeamDTO(UUID.randomUUID(), "BBB");
+        MatchCreationDTO matchCreationDTO = new MatchCreationDTO(null, team1.id(), team2.id(),
+                0, 0, LocalDate.now(), LocalTime.now());
+        doThrow(new RuntimeException()).when(soccerService).addMatch(matchCreationDTO);
+        mockMvc.perform(post("/admin/match/add")
+                        .param("homeTeamId", matchCreationDTO.homeTeamId().toString())
+                        .param("awayTeamId", matchCreationDTO.awayTeamId().toString())
+                        .param("homeTeamGoals", matchCreationDTO.homeTeamGoals().toString())
+                        .param("awayTeamGoals", matchCreationDTO.awayTeamGoals().toString())
+                        .param("date", matchCreationDTO.date().toString())
+                        .param("time", matchCreationDTO.time().toString()))
+                .andExpect(status().isOk())
+                .andExpect(view().name("add-match"))
+                .andExpect(model().attributeExists("matchCreationDTO"))
+                .andExpect(model().attributeHasErrors("matchCreationDTO"))
+                .andExpect(model().attribute("matchCreationDTO", matchCreationDTO));
+        verify(soccerService, times(1)).addMatch(matchCreationDTO);
     }
 
 

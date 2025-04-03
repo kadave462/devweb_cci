@@ -14,6 +14,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import com.project.dto.MatchCreationDTO;
 
 import java.util.List;
 import java.util.UUID;
@@ -64,6 +65,26 @@ public class SoccerController {
     public String showAddTeamForm(TeamDTO teamDTO, Model model) {
         model.addAttribute("teamDTO", teamDTO);
         return "add-team";
+    }
+
+    @GetMapping("/admin/match/add")
+    public String showAddMatchForm(MatchCreationDTO matchCreationDTO, Model model) {
+        model.addAttribute("matchCreationDTO", matchCreationDTO);
+        return "add-match";
+    }
+
+    @PostMapping("/admin/match/add")
+    public String addMatch(@Valid MatchCreationDTO matchCreationDTO, BindingResult bindingResult, Model model) {
+        if (bindingResult.hasErrors()) {
+            return showAddMatchForm(matchCreationDTO, model);
+        }
+        try {
+            soccerService.addMatch(matchCreationDTO);
+        } catch (Exception e) {
+            bindingResult.reject("");
+            return showAddMatchForm(matchCreationDTO, model);
+        }
+        return "redirect:/";
     }
 
 

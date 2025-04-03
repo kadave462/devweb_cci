@@ -48,7 +48,7 @@ public class JpaSoccerService implements SoccerService {
         for (TeamDTO team : dataSoccerService.getTeams()) addTeam(team);
 
         for (MatchDTO match : dataSoccerService.getMatches()) {
-            addMatch(new com.project.dtos.MatchCreationDTO(
+            addMatch(new com.project.dto.MatchCreationDTO(
                     match.id(),
                     match.homeTeam().id(), match.awayTeam().id(),
                     match.homeTeamGoals(), match.awayTeamGoals(),
@@ -56,8 +56,9 @@ public class JpaSoccerService implements SoccerService {
         }
     }
 
+    @Override
     @Transactional(isolation = Isolation.SERIALIZABLE)
-    public void addMatch(com.project.dtos.MatchCreationDTO match) {
+    public void addMatch(com.project.dto.MatchCreationDTO match) {
         Team homeTeam = teamRepository.findById(match.homeTeamId()).orElseThrow();
         Team awayTeam = teamRepository.findById(match.awayTeamId()).orElseThrow();
 

@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="fr" xmlns:th="http://www.thymeleaf.org" th:replace="~{base :: base(~{::#title}, ~{::#content})}" xmlns="">
+<th:block id="title">Ajouter un match</th:block>
+<th:block id="content">
+    <form method="post" th:action="@{/admin/match/add}" th:object="${matchCreationDTO}" >
+        <div class="alert alert-danger" th:if="${#fields.hasErrors('*')}">
+            Impossible d'ajouter le match
+        </div>
+        <div class="mb-3">
+            <label for="homeTeamId" class="form-label">Équipe à domicile</label>
+            <select id="homeTeamId" th:field="*{homeTeamId}"
+                    class="form-control" th:classappend="${#fields.hasErrors('homeTeamId')} ? 'is-invalid'">
+            </select>
+            <div class="invalid-feedback" th:errors="*{homeTeamId}"></div>
+        </div>
+        <div class="mb-3">
+            <label for="awayTeamId" class="form-label">Équipe à l'extérieur</label>
+            <select id="awayTeamId" th:field="*{awayTeamId}"
+                    class="form-control" th:classappend="${#fields.hasErrors('awayTeamId')} ? 'is-invalid'">
+            </select>
+            <div class="invalid-feedback" th:errors="*{awayTeamId}"></div>
+        </div>
+        <div class="mb-3">
+            <label for="date" class="form-label">Date</label>
+            <input type="date" class="form-control" id="date" th:field="*{date}"
+                   th:classappend="${#fields.hasErrors('date')} ? 'is-invalid'">
+            <div class="invalid-feedback" th:errors="*{date}"></div>
+        </div>
+        <div class="mb-3">
+            <label for="time" class="form-label">Heure</label>
+            <input type="time" class="form-control" id="time" th:field="*{time}"
+                   th:classappend="${#fields.hasErrors('time')} ? 'is-invalid'">
+            <div class="invalid-feedback" th:errors="*{time}"></div>
+        </div>
+        <div class="mb-3">
+            <label for="homeTeamGoals" class="form-label">Buts marqués par l'équipe à domicile</label>
+            <input type="number" class="form-control" id="homeTeamGoals"  th:field="*{homeTeamGoals}"
+                   th:classappend="${#fields.hasErrors('homeTeamGoals')} ? 'is-invalid'">
+            <div class="invalid-feedback" th:errors="*{homeTeamGoals}"></div>
+        </div>
+        <div class="mb-3">
+            <label for="awayTeamGoals" class="form-label">Buts marqués par l'équipe à l'extérieur</label>
+            <input type="number" class="form-control" id="awayTeamGoals"  th:field="*{awayTeamGoals}"
+                   th:classappend="${#fields.hasErrors('awayTeamGoals')} ? 'is-invalid'">
+            <div class="invalid-feedback" th:errors="*{awayTeamGoals}"></div>
+        </div>
+        <button type="submit" class="btn btn-primary">Ajouter le match</button>
+    </form>
+</th:block>
+</html>

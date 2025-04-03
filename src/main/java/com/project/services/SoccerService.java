@@ -3,6 +3,7 @@ package com.project.services;
 import com.project.dto.MatchDTO;
 import com.project.dto.RankingRowDTO;
 import com.project.dto.TeamDTO;
+import com.project.dto.MatchCreationDTO;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -39,6 +40,9 @@ public interface SoccerService {
     }
 
     default void addTeam(TeamDTO teamDTO) {
+        throw new UnsupportedOperationException();
+    }
+    default void addMatch(MatchCreationDTO matchCreationDTO) {
         throw new UnsupportedOperationException();
     }
 
