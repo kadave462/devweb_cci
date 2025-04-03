@@ -46,9 +46,20 @@ public class SoccerController {
         return "team";
     }
 
+
+
+    @PostMapping("/admin/team/add")
+    public String addTeam(@Valid TeamDTO teamDTO, BindingResult bindingResult, Model model) {
+        if (bindingResult.hasErrors()) {
+            return showAddTeamForm(teamDTO, model);
+        }
+        System.out.println(teamDTO.toString());
+        return "redirect:/";
+    }
+
     @GetMapping("/admin/team/add")
-    public String showAddTeamForm(Model model) {
-        model.addAttribute("teamForm", new TeamFormDTO());
+    public String showAddTeamForm(TeamDTO teamDTO, Model model) {
+        model.addAttribute("teamDTO", teamDTO);
         return "add-team";
     }
 
