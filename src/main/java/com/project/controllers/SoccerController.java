@@ -47,16 +47,19 @@ public class SoccerController {
     }
 
 
-
     @PostMapping("/admin/team/add")
     public String addTeam(@Valid TeamDTO teamDTO, BindingResult bindingResult, Model model) {
         if (bindingResult.hasErrors()) {
             return showAddTeamForm(teamDTO, model);
         }
-        System.out.println(teamDTO.toString());
+        try {
+            soccerService.addTeam(teamDTO);
+        } catch (Exception e) {
+            bindingResult.reject("");
+            return showAddTeamForm(teamDTO, model);
+        }
         return "redirect:/";
     }
-
     @GetMapping("/admin/team/add")
     public String showAddTeamForm(TeamDTO teamDTO, Model model) {
         model.addAttribute("teamDTO", teamDTO);

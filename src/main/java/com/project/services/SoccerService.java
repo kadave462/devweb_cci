@@ -38,8 +38,9 @@ public interface SoccerService {
         return List.of();
     }
 
-    default void addTeam(TeamDTO team){
-    };
+    default void addTeam(TeamDTO teamDTO) {
+        throw new UnsupportedOperationException();
+    }
 
 
 }
