@@ -10,6 +10,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 
@@ -24,11 +25,13 @@ import static org.mockito.Mockito.*;
 import static org.mockito.Mockito.when;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.stringContainsInOrder;
+import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.csrf;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 @WebMvcTest(SoccerController.class)
+@WithMockUser
 public class SoccerControllerTest {
 
     @Autowired
@@ -129,6 +132,7 @@ public class SoccerControllerTest {
     void testAddTeam() throws Exception {
         TeamDTO teamDTO = new TeamDTO(null, "AAA");
         mockMvc.perform(post("/admin/team/add")
+                        .with(csrf())
                         .param("name", teamDTO.name()))
                 .andExpect(status().is3xxRedirection())
                 .andExpect(redirectedUrl("/"));
@@ -139,6 +143,7 @@ public class SoccerControllerTest {
     void testAddTeamWithInvalidData() throws Exception {
         TeamDTO teamDTO = new TeamDTO(null, "A");
         mockMvc.perform(post("/admin/team/add")
+                        .with(csrf())
                         .param("name", "A"))
                 .andExpect(status().isOk())
                 .andExpect(view().name("add-team"))
@@ -153,6 +158,7 @@ public class SoccerControllerTest {
         TeamDTO teamDTO = new TeamDTO(null, "AAA");
         doThrow(new RuntimeException()).when(soccerService).addTeam(teamDTO);
         mockMvc.perform(post("/admin/team/add")
+                        .with(csrf())
                         .param("name", teamDTO.name()))
                 .andExpect(status().isOk())
                 .andExpect(view().name("add-team"))
@@ -183,6 +189,7 @@ public class SoccerControllerTest {
                 team1.id(), team2.id(),
                 0, 0, LocalDate.now(), LocalTime.now());
         mockMvc.perform(post("/admin/match/add")
+                        .with(csrf())
                         .param("homeTeamId", matchCreationDTO.homeTeamId().toString())
                         .param("awayTeamId", matchCreationDTO.awayTeamId().toString())
                         .param("homeTeamGoals", matchCreationDTO.homeTeamGoals().toString())
@@ -203,6 +210,7 @@ public class SoccerControllerTest {
                 0, 70, LocalDate.now(), LocalTime.now());
         doThrow(new RuntimeException()).when(soccerService).addMatch(matchCreationDTO);
         mockMvc.perform(post("/admin/match/add")
+                        .with(csrf())
                         .param("homeTeamId", matchCreationDTO.homeTeamId().toString())
                         .param("awayTeamId", matchCreationDTO.awayTeamId().toString())
                         .param("homeTeamGoals", matchCreationDTO.homeTeamGoals().toString())
@@ -225,6 +233,7 @@ public class SoccerControllerTest {
                 0, 0, LocalDate.now(), LocalTime.now());
         doThrow(new RuntimeException()).when(soccerService).addMatch(matchCreationDTO);
         mockMvc.perform(post("/admin/match/add")
+                        .with(csrf())
                         .param("homeTeamId", matchCreationDTO.homeTeamId().toString())
                         .param("awayTeamId", matchCreationDTO.awayTeamId().toString())
                         .param("homeTeamGoals", matchCreationDTO.homeTeamGoals().toString())
